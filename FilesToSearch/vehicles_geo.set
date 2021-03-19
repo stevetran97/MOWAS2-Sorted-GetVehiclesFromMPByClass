@@ -1,75 +1,75 @@
-;----- Georgia -----
-;Button 1 - Logis and Transports --------------------
+;----- Georgia -----;
+;Button 1 - Logis and Transports --------------------;
 
-;lightmgcar
+;lightmgcar;
 {"cobra"     ("vs" c(15) t(all inf_only) s(geo) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 80} {fore 1}}
 {"uaz-469_ags"        ("vs" c(15) t(all) 			s(geo) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 60} {fore 1}}
 
 
-;heavymgcar
+;heavymgcar;
 {"brdm2"        ("vs" c(15) t(all) 			s(geo) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 85} {fore 1}}
 
-;logi
+;logi;
 {"mtlb_amo"        ("vs" c(15) t(all) 			s(geo) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 75} {fore 1}}
 {"mtlb_eng"        ("vs" c(15) t(all) 			s(geo) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1}}
 
 
-;Button 2 - Emplacements and Artillery --------------------
+;Button 2 - Emplacements and Artillery --------------------;
 
-;emplacements
-;hmg
+;emplacements;
+;hmg;
 {"zu_23"       	    ("vs" c(5) t(all) 			s(geo) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
 
-;atgm
+;atgm;
 {"ptur_metis"       	    ("vs" c(5) t(all) 			s(geo) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
 
-;field_artillery
+;field_artillery;
 {"d30"          ("vs" c(5) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 400} {fore 1}}
 
-;lightspgarty
+;lightspgarty;
 {"dana"          ("vs" c(20) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore 1}}
 
-;heavyspgarty
+;heavyspgarty;
 {"msta"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 800} {fore 1}}
 {"akatcia"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 600} {fore 1}}
 {"pion"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 1000} {fore 1}}
 
-;heavyrocketarty
+;heavyrocketarty;
 {"ural_grad(geo)"           ("art"  c(30) t(all artillery rocket) s(ita) n(2) g(art1) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 800} {fore 1}}
 
 
-;Button 3 - IFVS and AA -------------------------
+;Button 3 - IFVS and AA -------------------------;
 
-;medium_wheeled_apc
+;medium_wheeled_apc;
 {"btr_70"             ("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb1) sc(9.00)  b(v3) cw(0) cp(5)) {cost 115} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb1) sc(9.00)  b(v3) cw(0) cp(5)) {cost 115} {fore 1}}
 {"btr80a"    	    	("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb2) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 150} {fore 1}}
 
 
-;heavy_apc
+;heavy_apc;
 {"bmp2(geo)"              ("v" c(20) t(all) 				s(geo) n1(2) n2(1) g(lt1) sc(22.50) b(v3) cw(0) cp(10)) {level 15} {cost 240} {fore 1}}
 {"bmp1"              ("v" c(20) t(all) 				s(geo) n1(2) n2(1) g(lt1) sc(22.50) b(v3) cw(0) cp(10)) {level 15} {cost 210} {fore 1}}
 
-;spg_aa
+;spg_aa;
 {"zsushilka"            ("v" c(15) t(all) 			s(geo) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 350} {fore 1}}
 
 
 
-;Button 4 - Main Battle Tanks -------------------------
+;Button 4 - Main Battle Tanks -------------------------;
 
-;cold_war_tank
+;cold_war_tank;
 {"t_72a(geo)"              ("v" c(25) t(all medium) 		s(geo) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 500} {fore 1}} 
 {"t_72b(geo)"     ("v" c(25) t(all medium) 		s(geo) n1(3) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1}}
 
-;Button 5 - Tank Destroyers ------------------------------
+;Button 5 - Tank Destroyers ------------------------------;
 
-;tank_destroyer
+;tank_destroyer;
 {"brdm2_atgm"        ("v" c(15) t(all medium) 	 s(geo) n1(3) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
 
 
-;Button 6 - Aircraft ------------------------------
+;Button 6 - Aircraft ------------------------------;
 
-;aircraft
+;aircraft;
 {"mi-24v(geo)"		("vh" c(60) t(all vehicle use_charge) s(geo) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 400} {fore -1}}
 {"mi17(geo)"		("vh" c(60) t(all vehicle use_charge) s(geo) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 500} {fore -1}}
 {"uh1"			("vh" c(60) t(all vehicle use_charge) s(geo) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}

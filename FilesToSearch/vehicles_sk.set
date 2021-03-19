@@ -1,17 +1,17 @@
-;----- sk -----
+;----- sk -----;
 
 
-;Button 1 - Logis and Transports --------------------
+;Button 1 - Logis and Transports --------------------;
 
-;lightmgcar
+;lightmgcar;
 {"m151_mg"         ("vs" c(15) t(all inf_only)          s(sk) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
 {"m151"         ("vs" c(15) t(all) 		s(sk) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 60} {fore 1}}
 
 
-;transport
+;transport;
 {"m35"         ("vs" c(5) t(all) 			s(sk) n(2) g(t4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 60} {fore 1}}
 
-;logi
+;logi;
 {"m35_eng"      ("vs" c(15) t(all) 			s(sk) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
 {"m35_ammo"      ("vs" c(15) t(all) 			s(sk) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
 
@@ -19,65 +19,65 @@
 
 
 
-;Button 2 - Emplacements and Artillery --------------------
+;Button 2 - Emplacements and Artillery --------------------;
 
 
-;emplacements
-;hmg
+;emplacements;
+;hmg;
 {"m240_tstanok"    ("vs" c(5) t(all) 		s(sk) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
 {"browning_trenoga"           ("vs" c(5) t(all) 		s(sk) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 01}}
 
-;mortar
+;mortar;
 {"m252"         ("vs" c(5) t(all) 			s(sk) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1}}
 
-;gl
+;gl;
 {"mk19_stan"             ("vs" c(5) t(all) 		s(sk) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
 
-;atgm
+;atgm;
 {"ptur_tow"        ("vs" c(5) t(all) 			s(sk) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
 
-;field_artillery
+;field_artillery;
 {"m119"          ("vs" c(5) t(all) 			s(sk) n(2) g(c6) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 325} {fore 1}}
 
-;heavyspgarty
+;heavyspgarty;
 {"k9thunder"           ("v" c(30) t(all artillery heavy)	s(sk) n1(3) n2(1) g(art5) sc(70.00) b(v2) cw(0) cp(20)) {level 23} {cost 1000} {fore 1}}
 
-;heavyrocketarty
+;heavyrocketarty;
 {"m270"           ("vs"  c(30) t(all artillery rocket) s(sk) n(2) g(art7) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1}}
 
 
-;Button 3 - IFVS and AA -------------------------
+;Button 3 - IFVS and AA -------------------------;
 
-;light_apc
+;light_apc;
 {"m113"             ("v" c(5) t(all) 			s(sk) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
 
-;heavy_apc
+;heavy_apc;
 {"k200"              ("v" c(20) t(all) 			s(sk) n1(2) n2(1) g(mb1) sc(19.00) b(v3) cw(0) cp(10)) {level 1} {cost 230} {fore 1}}
 {"bmp3"              ("v" c(20) t(all) 				s(sk) n1(2) n2(1) g(mb6) sc(14.50) b(v3) cw(0) cp(10)) {cost 290} {fore 1}}
 
-;spg_aa
+;spg_aa;
 {"m163"            ("v" c(15) t(all) 				s(sk) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 290} {fore 1}}
 {"m163a1"            ("v" c(15) t(all) 			s(sk) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 295} {fore 1}}
 {"m1097_avenger"            ("v" c(15) t(all) 			s(sk) n1(2) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
 
 
-;Button 4 - Main Battle Tanks -------------------------
+;Button 4 - Main Battle Tanks -------------------------;
 
-;heavy_modern_war_tank
+;heavy_modern_war_tank;
 {"k1a1"          ("v" c(35) t(all medium) 		s(sk) n1(4) n2(1) g(mt3) sc(22.00) b(v4) cw(0) cp(25)) {level 1} {cost 750} {fore 1}} 	
 
-;very_heavy_modern_war_tank
+;very_heavy_modern_war_tank;
 {"k2bpanter"     ("v" c(35) t(all heavy) 			s(sk) n1(4) n2(1) g(ot3) sc(50.00) b(v4) cw(0) cp(25)) {level 1} {cost 900} {fore 1}} 
 
 	
-;Button 5 - Tank Destroyers ------------------------------
+;Button 5 - Tank Destroyers ------------------------------;
 
-;tank_destroyer
+;tank_destroyer;
 {"hummvee_tow"             ("vs" c(15) t(all medium) 		s(sk) n1(3) n2(1) g(atgm1) sc(14.00) b(v5) cw(0) cp(10)) {cost 120} {fore 1}}
 
-;Button 6 - Aircraft ------------------------------
+;Button 6 - Aircraft ------------------------------;
 
-;aircraft
+;aircraft;
 {"apache"		("vh" c(60) t(all vehicle use_charge) s(sk) n(2) g(airdhes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}
 {"f4f"		      ("vh" c(60) t(all vehicle) s(sk) n(2) g(airdhes)  sc(20) b(special)  i(1) m(1) cw(0) cp(20)) {cost 800} {fore 1.0}}
 {"uh1_m60"		  ("vh" c(60) t(all vehicle) s(sk) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 550} {fore 1.0}}

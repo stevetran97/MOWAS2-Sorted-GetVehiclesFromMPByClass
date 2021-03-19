@@ -8,13 +8,13 @@ import os
 
 # Replacement pattern order must match the order of replacement text below
 # Include all english characters and english special characters (without space)
-# vehicleNamePattern = r'{"[a-zA-z0-9~@#$^*()_+=[\]{}|\\,.?:-]+"'
 vehicleNamePattern = r'\"[a-zA-z0-9~@#$^*()_+=[\]|\\,.?:-]+\"'
 print("vehicleNamePattern = ", vehicleNamePattern)
 outputFilePath = r'.\vehicleList.txt'
 
 costPattern = r'cost [0-9]+'
 
+# Group marker must start and end with comment trigger
 commentTrigger = ';'
 
 # ----------------------------------------------------------------------------
@@ -143,8 +143,8 @@ for sortClass in sortClasses:
             for line in file:
                 # If line starts with comment Trigger
                 if line[0] == commentTrigger:
-                    # If runs into the sortClass on that line
-                    if re.findall(sortClass, line):
+                    # If runs into the sortClass on that line (Must start with comment trigger)
+                    if re.findall(';{};'.format(sortClass), line):
                         # Activate collecting mode to search lines
                         isCollecting = True
                         # continue off of the comment line to prevent search of comment line

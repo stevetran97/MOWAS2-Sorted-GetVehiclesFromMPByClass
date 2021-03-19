@@ -1,89 +1,89 @@
-;----- Isis -----
+;----- Isis -----;
 
 
-;Button 1 - Logis and Transports --------------------
-;lightmgcar
+;Button 1 - Logis and Transports --------------------;
+;lightmgcar;
 {"uaz-469_mg"              ("vs" c(15) t(all) 			s(isis) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
 {"toyota_hilux_transport"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(cm1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 {"toyota_hilux"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 {"car_terror"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 100} {fore 1}}
 {"datsun-620"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 
-;heavymgcar
+;heavymgcar;
 {"brdm2"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
 
-;logi
+;logi;
 {"toyota_hilux_ammo"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(cm1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 
 
 
-;Button 2 - Emplacements and Artillery --------------------
+;Button 2 - Emplacements and Artillery --------------------;
 
-;emplacements
-;hmg
+;emplacements;
+;hmg;
 {"kord_stan"   ("vs" c(5) t(all) 		s(isis) n(2) g(c1) sc(5.50)  b(v2) cw(2) cp(5)) {cost 110} {fore 1}}
 
-;aa_gun
+;aa_gun;
 {"zu_23"             ("vs" c(5) t(all) 		s(isis) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
 
-;mortar
+;mortar;
 {"2b14"             ("vs" c(5) t(all) 		s(isis) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
 
-;field_artillery
+;field_artillery;
 {"d30a"             ("vs" c(5) t(all) 			s(isis) n(2) g(c7) sc(12.75) b(v2) cw(2) cp(5)) {cost 355} {fore 1}}
 
-;atgm
+;atgm;
 {"ptur_fagot"        ("vs" c(5) t(all) 			s(isis) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore 1}}
 
-;light_mortar_spg
+;light_mortar_spg;
 {"mtlb_art"               ("v" c(5) t(all artillery) 			s(isis) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
 
-;heavyspgarty
+;heavyspgarty;
 {"2c1_gvazdika"            ("v" c(30) t(all artillery) 			s(isis) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(20)) {cost 850} {fore 1}}
 
-;heavyrocketarty
+;heavyrocketarty;
 {"ural_grad"             ("vs" c(30) t(all artillery rocket) 	s(isis) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(20)) {cost 1000} {fore 1}}
 
 
 
-;Button 3 - IFVS and AA -------------------------
+;Button 3 - IFVS and AA -------------------------;
 
-;light_apc
+;light_apc;
 {"m113"             ("v" c(5) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
 
-;heavy_apc
+;heavy_apc;
 {"bmp1"             ("v" c(20) t(all) 				s(isis) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
 
-;spg_aa
+;spg_aa;
 {"mtlb_zu"            ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 250} {fore 1}}
 
 
 
-;Button 4 - Main Battle Tanks -------------------------
+;Button 4 - Main Battle Tanks -------------------------;
 
-;medium_tank
+;medium_tank;
 {"t_55a"            ("v" c(15) t(all medium) 	s(isis) n1(4) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 400} {fore 1}} 
 {"t_55mb"            ("v" c(15) t(all medium) 		s(isis) n1(4) n2(1) g(mt1) sc(25.00) b(v4) cw(0) cp(15)) {cost 450} {fore 1}} 
 {"t_55mbt"            ("v" c(15) t(all medium) 		s(isis) n1(4) n2(1) g(mt1) sc(25.00) b(v4) cw(0) cp(15)) {cost 470} {fore 1}} 
 
-;cold_war_tank
+;cold_war_tank;
 {"t_62m"            ("v" c(25) t(all medium) 		s(isis) n1(4) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 450} {fore 1}}
 
-;heavy_cold_war_tank
+;heavy_cold_war_tank;
 {"t_72m"              ("v" c(25) t(all medium) 		s(isis) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 500} {fore 1}} 
 {"t_72b"              ("v" c(25) t(all medium) 		s(isis) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 525} {fore 1}} 
 {"m1a1m"         	("v" c(25) t(all heavy) 		s(isis) n1(4) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 1}}
 
 
 
-;Button 5 - Tank Destroyers ------------------------------
+;Button 5 - Tank Destroyers ------------------------------;
 
-;tank_destroyer
+;tank_destroyer;
 
 {"brdm2_atgm"           ("v" c(15) t(all medium) 	s(isis) n1(3) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
 {"toyota_hilux_spg9"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v5) cw(0) cp(10)) {cost 190} {fore 1}}
 
-;Button 6 - Aircraft ------------------------------
+;Button 6 - Aircraft ------------------------------;
 
-;aircraft
+;aircraft;
 {"mi-24v"		("vh" c(60) t(all vehicle use_charge) s(isis) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
