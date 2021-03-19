@@ -1,0 +1,294 @@
+
+#lightmgcar
+'uaz-469_mg': 60,
+'uaz-469_mg(rus)': 120,
+'tigr_cis': 150,
+'btr-40b_cis': 160,
+'hummvee_m240': 110,
+'hummvee': 120,
+'iveco_cammo-mg(eu)': 150,
+'iveco_cammo-brow(eu)': 160,
+'iveco_cammo-mk19(eu)': 180,
+'dingo(eu)': 120,
+'maxxpro': 180,
+'landrover109_mgun(fr)': 60,
+'vabl': 150,
+'landrover109_t(fr)': 100,
+'landrover110': 60,
+'land_rover_sas': 90,
+'landrover109_t': 100,
+
+#heavymgcar
+'btr-40b_bel': 120,
+'brdm2': 140,
+'btr_70': 200,
+'btr80': 220,
+'btr80a': 280,
+'vodnik': 150,
+'maxxpro': 130,
+'btr-40': 120,
+'btr152': 125,
+'btr60': 145,
+'vab(eu)': 170,
+'vab': 140,
+'ridgback_d': 100,
+
+#transport
+'ural_zvezda': 150,
+'kamaz-4326': 50,
+'kamaz_43118': 50,
+'kamaz-6350': 50,
+'m939': 50,
+'mtvr': 60,
+'mtvr_mgun': 65,
+'man': 80,
+'man-7t': 100,
+'bedfordmt': 45,
+
+#logi
+'ural-375_eng': 150,
+'ural-4320_ammo(rus)': 250,
+'KAMAZ_43118_fuel': 100,
+'mtvr_ammo': 150,
+'mtvr_ammo_mgun': 160,
+'mtvr_rem': 250,
+'mtvr_rem_mgun': 270,
+'man_amo': 100,
+'man_eng': 100,
+'m939_eng': 75,
+'bedfordmt_eng': 150,
+'bedford_support': 250,
+
+#emplacements
+
+#hmg
+'kord_stan': 110,
+'m240_tstanok': 100,
+'browning_trenoga': 150,
+'mg3_tstanok': 50,
+'fnmag_tstanok(fra)': 100,
+'m240_tstanok(eng)': 100,
+
+#minigun
+'md134_stan': 100,
+
+#gl
+'ags30_stan': 350,
+'mk19_stan': 350,
+'mk19_stan(fra)': 350,
+'mk19_stan(eng)': 350,
+
+#field_artillery
+'d30a': 355,
+'l119': 325,
+'long_tom': 400,
+
+#mortar
+'2b14': 350,
+'mtlb_art': 650,
+'m252': 350,
+'l16(ger)': 80,
+'l16(fra)': 350,
+'l16': 350,
+'fv432_mortar': 650,
+
+#aa_gun
+'zu_23': 170,
+
+#atgm
+'ptur_metis': 190,
+'ptur_fagot': 150,
+'ptur_tow(ger)': 100,
+'ptur_tow(fra)': 190,
+'ptur_tow(eng)': 190,
+
+#at_gun
+'mt12_rapira': 255,
+
+#light_mortar_spg
+'mtlb_art': 650,
+'fv432_mortar': 650,
+
+#lightspgarty
+'2c9': 750,
+'2c1_gvazdika': 850,
+'nona-svk': 280,
+'2c9(rus)': 380,
+'2c1_gvazdika(rus)': 500,
+'m113art': 650,
+'m109': 900,
+'fv101_ebbot': 750,
+'crusader': 850,
+'m109a2(eng)': 950,
+
+#heavyspgarty
+'msta': 1000,
+'malka': 1200,
+'ltm1': 400,
+'as90': 1000,
+
+#lightrocketarty
+'uragan': 1200,
+
+#heavyrocketarty
+'ural_grad': 1000,
+'ural_grad(rus)': 1000,
+'kamaz-tornado-g': 1200,
+'m270': 1200,
+'m270(fra)': 1200,
+'m270(eng)': 1200,
+
+#light_apc
+'btr_70': 150,
+'btr80': 160,
+'mtlb-6mb': 230,
+'m113': 100,
+'topas': 150,
+'fv432': 140,
+'fv432_buldog': 160,
+
+#medium_wheeled_apc
+'btr_70': 150,
+'btr_90': 380,
+'btr_90r': 390,
+'btr_90b': 390,
+'ot64': 155,
+'VBCI(eu)': 280,
+'VBCI': 200,
+
+#heavy_apc
+'bmd1': 190,
+'bmd1p': 200,
+'bmp1': 210,
+'bmp1p': 220,
+'bmp2': 240,
+'bmd1p(rus)': 350,
+'bmd2(rus)': 390,
+'bmd_3': 420,
+'bmp1p(rus)': 350,
+'bmp2(rus)': 390,
+'bmp2m': 400,
+'bmp_3': 420,
+'bmp_3m': 420,
+'bmpt1': 500,
+'bmpt2': 500,
+'marder1a5(eu)': 300,
+'marder_t': 400,
+'warior': 240,
+'warlord': 290,
+'fv510': 250,
+
+#spg_aa
+'mtlb_zu': 250,
+'bmp_zu23': 290,
+'btr-3d': 300,
+'zsushilka3': 325,
+'tunguska': 370,
+'sa13': 300,
+'zsu-57-2': 250,
+'kamaz_zu': 170,
+'mtlb_zu(rus)': 220,
+'bmp_zu23(rus)': 220,
+'m163': 290,
+'m163a1': 295,
+'m1097_avenger': 300,
+'Gepard1A2(eu)': 300,
+'frr_roland': 300,
+'frp_roland': 300,
+'amx-30moskito': 450,
+
+#medium_tank
+'t_55a': 400,
+'t_55am': 410,
+'amx-30(bos)': 400,
+'t_55mb': 450,
+'t_55mbt': 470,
+'t_62a': 420,
+'t_62a_pks': 450,
+'t_62mbt': 470,
+'t_64a': 470,
+'t_64b': 490,
+'t_64bv': 500,
+'t_72a(rus)': 500,
+'t_72b(rus)': 525,
+'t_72ba': 625,
+'t_72b_rogatka': 650,
+'t_80bv(rus)': 700,
+'pl01': 400,
+'centurion_mk7': 400,
+'centurion_mk10': 425,
+
+#cold_war_tank
+'t_62a': 420,
+'t_62mbt': 470,
+'t_72a': 500,
+'t_72b': 525,
+'t_80bvkl': 700,
+'m60a2': 430,
+'m_84(bosnia)': 500,
+'t_62a_pks': 450,
+'m60a1': 420,
+'m1a1': 550,
+'amx-30': 400,
+'amx-30b2brenus': 550,
+'chiftein': 440,
+'chiftein_d': 460,
+'chiftein2': 430,
+
+#heavy_cold_war_tank
+'t_80bvkl': 700,
+'m1a1': 550,
+
+#heavy_modern_war_tank
+'t_90': 900,
+'t_90_tral': 550,
+'t_90a': 920,
+'t_90ms': 1000,
+'m1a2_sel': 1000,
+'arietemk2': 700,
+'amx-56(eu)': 800,
+'leopard2a7(eu)': 1000,
+'leopard2a8': 1500,
+'amx-56': 800,
+'challenger': 540,
+'challenger2': 900,
+'challenger2_applique': 910,
+
+#very_heavy_modern_war_tank
+'challenger': 540,
+'challenger2': 900,
+'challenger2_applique': 910,
+
+#tank_destroyer
+'brdm2_atgm': 250,
+'aml90': 300,
+'zlf-92': 250,
+'tigr_ptur': 200,
+'sprut': 350,
+'hummvee_tow': 120,
+'kentavr(eu)': 350,
+'amx_15': 350,
+'vab-hot(eu)': 220,
+'vab-hot': 350,
+'amx-13-90': 340,
+'fv101-90': 300,
+'fox': 170,
+'fv107': 320,
+
+#aircraft
+'mi17': 600,
+'mi-24v': 650,
+'mi-24vm': 700,
+'mi28': 750,
+'ka-50': 800,
+'apache': 650,
+'uh-60': 700,
+'uh1': 600,
+'chinook': 400,
+'tiger': 700,
+'tiger_b': 800,
+'pumahel2': 600,
+'gazele': 650,
+
+#light_robot_mech
+'mvxx1': 300,

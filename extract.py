@@ -10,7 +10,7 @@ import os
 # Include all english characters and english special characters (without space)
 # vehicleNamePattern = r'{"[a-zA-z0-9~@#$^*()_+=[\]{}|\\,.?:-]+"'
 vehicleNamePattern = r'[a-zA-z0-9~@#$^*()_+=[\]|\\,.?:-]+'
-outputFilePath = r'.\output.txt'
+outputFilePath = r'.\vehicleList.txt'
 
 costPattern = r'cost [0-9]+'
 
@@ -54,7 +54,10 @@ sortClasses = {
 
 # List of vehicles default
 vehicleCostHashByUnit = {
+
 }
+print('\n\nInitialize mainhash in vehicleCostHashByUnit = ',
+      vehicleCostHashByUnit)
 # isCollecting trigger for enable line to be added to hash table. False by default
 isCollecting = False
 fileToSearchDirectory = r'.\FilesToSearch'
@@ -84,44 +87,44 @@ def foundPatternInLine(text_to_search):
 
 def checkUpdateHash(stringPatternMatch, costValue):
     # Debugging
-    print("stringPatternMatch", stringPatternMatch, "\n")
+    # print("stringPatternMatch", stringPatternMatch, "\n")
+
     # print("Type: ", type(stringPatternMatch), "\n\n")
     # print("vehicleCostHashByUnit", vehicleCostHashByUnit, "\n")
     # print("Type: ", type(vehicleCostHashByUnit), "\n\n")
 
-    # If already in hash, do not add anything
-    if stringPatternMatch in vehicleCostHashByUnit:
+    # If already in subhash, do not add anything
+    if stringPatternMatch in vehicleCostHashByUnit[sortClass]:
         print('Vehicle Already in Table')
     else:
         # Adds vehicle entry to hash table if not in table
-        vehicleCostHashByUnit[stringPatternMatch] = costValue
+        vehicleCostHashByUnit[sortClass][stringPatternMatch] = costValue
 
 
 # Formatted write resulting hashtable to output
 def writeOutput(outputText):
     # Open output file
     d = open(outputFilePath, 'w')
-    # Write start
-    d.write("{\n")
-    # Write formatted inner contents
-    for entry in vehicleCostHashByUnit:
-        # Format handling
-        if type(vehicleCostHashByUnit[entry]) == list:
-            rawCost = vehicleCostHashByUnit[entry][0]
-            rawCost = re.findall(r'[0-9]+', rawCost)[0]
-        else:
-            rawCost = vehicleCostHashByUnit[entry]
-        d.write('{}: {},\n'.format(entry, rawCost))
-    # Write end
-    d.write("}")
+    # Write from each sortClass
+    for sortClass in vehicleCostHashByUnit:
+        d.write('\n#{}\n'.format(sortClass))
+        # Write from subhash
+        for entry in vehicleCostHashByUnit[sortClass]:
+            # Format handling
+            if type(vehicleCostHashByUnit[sortClass][entry]) == list:
+                rawCost = vehicleCostHashByUnit[sortClass][entry][0]
+                rawCost = re.findall(r'[0-9]+', rawCost)[0]
+            else:
+                rawCost = vehicleCostHashByUnit[sortClass][entry]
+            d.write('\'{}\': {},\n'.format(entry, rawCost))
 
 
 # Main Code
 for sortClass in sortClasses:
-    print('\n\ncurrent sortClass = ', sortClass)
+    # print('\n\ncurrent sortClass = ', sortClass)
     vehicleCostHashByUnit[sortClass] = {}
-    print('\n\nInitialize subhash in vehicleCostHashByUnit = ',
-          vehicleCostHashByUnit)
+    print('\n\nInitialize subhash in {} = '.format(sortClass),
+          vehicleCostHashByUnit[sortClass])
     for fileName in os.listdir(fileToSearchDirectory):
         # Get filePath for fileinput
         filePath = getFilePath(fileToSearchDirectory, fileName)
@@ -149,14 +152,22 @@ for sortClass in sortClasses:
                         # Get costValue
                         # Cost will always accompany string match
                         costPatternMatch = re.findall(costPattern, line)
+                        # format to integer and remove string parts
+                        formattedCost = int(re.findall(
+                            r'[0-9]+', costPatternMatch[0])[0])
 
                         # Check and maybe Update Hash table with info
                         checkUpdateHash(
-                            stringPatternMatch[0], costPatternMatch)
+                            stringPatternMatch[0], formattedCost)
 
-
-# def getSortClassEntries():
 
 # Print final resulting table
-# print("EndResult = ", vehicleCostHashByUnit)
-# writeOutput(vehicleCostHashByUnit)
+print("EndResult = ", vehicleCostHashByUnit)
+writeOutput(vehicleCostHashByUnit)
+
+
+# print('\n\nFinal mainhash in = ',
+#       vehicleCostHashByUnit)
+
+# print('\n\nFinal subhash in {} = '.format(sortClass),
+#         vehicleCostHashByUnit[sortClass])
