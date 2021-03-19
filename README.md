@@ -27,14 +27,14 @@ Can be used to extract all unique vehicles (and properties) from a set of roster
 
 ## Algorithm
   - Loops through all sort classes in the sortClass table
-  - Loops through each set (equivalent to txt) file in the Editting Folder
-  - Loops through the current file which will return each line in a string format
-    - 1. Checks if the first character in the line is the commentTrigger, the algorithm identifies the sort classes on that line and 'isCollecting' mode is enabled
-      - isCollecting mode is used to further check/collect all lines as the algorithm continues looping through the lines. When the loop encounters another commentTrigger, it is either disabled or its state is changed to collect for another subhash.
-    - 2. On every line, the algorithm checks to see if it isCollecting. If so, it tries to find the vehicleNamePattern in the current line.
-    - If found, it retrieves the name and the vehicle cost on the same line.
-    - A callback is used to check to see if the vehicleNamePattern is already in the current subhashtable 
-    - If not, it adds an entry
+    - Loops through each set (equivalent to txt) file in the Editting Folder
+      - Loops through the current file which will return each line in a string format
+        1. Checks if the first character in the line is the commentTrigger, the algorithm identifies the sort classes on that line and 'isCollecting' mode is enabled
+          - isCollecting mode is used to further check/collect all lines as the algorithm continues looping through the lines. When the loop encounters another commentTrigger, it is either disabled or its state is changed to collect for another subhash.
+        2. On every line, the algorithm checks to see if it isCollecting. If so, it tries to find the vehicleNamePattern in the current line.
+        - If found, it retrieves the name and the vehicle cost on the same line.
+          - A callback is used to check to see if the vehicleNamePattern is already in the current subhashtable 
+            - If not, it adds an entry
 
 ## Current Intrinsic Issues/Assumptions
   - Assumes that all similar entries between roster files have the same cost. The hash table stores the first one it gets.
