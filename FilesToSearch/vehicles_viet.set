@@ -1,0 +1,115 @@
+;----- Vietnam NVA -----
+;Button 1 - Logis and Transports --------------------
+
+
+;heavymgcar
+{"btr-40(nva)"        ("vs" c(15) t(all) 			s(viet) n(3) g(lb1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+{"btr152"       ("vs" c(15) t(all) 		s(viet) n(3) g(lb2) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 125} {fore 1}}
+{"brdm1(nva)"             ("v" c(15) t(all) 				s(viet) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 120} {fore 1}}
+{"brdm2(nva)"             ("v" c(15) t(all) 				s(viet) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
+{"btr50pb(nva)"             ("v" c(15) t(all) 				s(viet) n1(2) n2(1) g(mb1) sc(16.00) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+
+;transport
+{"zis_151"      ("vs" c(5) t(all) 			s(viet) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+
+
+;logi
+{"zil157_eng"      ("vs" c(15) t(all) 			s(viet) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"zil157"         ("vs" c(15) t(all) 			s(viet) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
+{"zil157_fuel"         ("vs" c(15) t(all) 		s(viet) n(2) g(t4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+
+
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"dshkm_trenoga(nva)"   ("vs" c(5) t(all) 		s(viet) n(2) g(c1) sc(5.50)  b(v2) cw(2) cp(5)) {cost 110} {fore 1}}
+{"kpv-44(nva)"             ("vs" c(5) t(all) 		s(viet) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 150} {fore 1}}
+
+;aa_gun
+{"zpu_2"             ("vs" c(5) t(all) 		s(viet) n(2) g(c3) sc(7.50) b(v2) cw(2) cp(5)) {cost 150} {fore 1}}
+{"zpu_4(nva)"             ("vs" c(5) t(all) 		s(viet) n(2) g(c4) sc(7.50) b(v2) cw(2) cp(5)) {cost 180} {fore 1}}
+{"zu_23(nva)"             ("vs" c(5) t(all) 		s(viet) n(2) g(c5) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+
+;mortar
+{"2b14(nva)"             ("vs" c(5) t(all) 		s(viet) n(2) g(c6) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;gl
+{"ags30_stan(nva)"             ("vs" c(5) t(all) 	s(viet) n(2) g(c7) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow"      ("vs" c(5) t(all cannon) 			s(usaf) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1.0}}
+
+;at_gun
+{"type65_stan(nva)"        ("vs" c(5) t(all) 		s(viet) n(2) g(c8) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+{"spg_9(nva)"              ("vs" c(5) t(all) 		s(viet) n(2) g(c9) sc(6.75)  b(v2) cw(2) cp(5)) {cost 135} {fore 1}}
+{"mt12_rapira(nva)"             ("vs" c(5) t(all) 	s(viet) n(2) g(c10) sc(12.75) b(v2) cw(2) cp(5)) {cost 255} {fore 1}}
+
+;field_artillery
+{"d30a(nva)"             ("vs" c(5) t(all) 		s(viet) n(2) g(c11) sc(12.75) b(v2) cw(2) cp(5)) {cost 355} {fore 1}}
+
+;lightspgarty
+{"type70_122(nva)"            ("v" c(20) t(all artillery) 		s(viet) n1(3) n2(1) g(art1) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+{"2c1_gvazdika"            ("v" c(20) t(all artillery) 			s(viet) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+
+;heavyspgarty
+{"akatcia"            ("v" c(30) t(all artillery) 			s(viet) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(20)) {cost 950} {fore 1}}
+
+;lightrocketarty
+{"type63_type70_rocket(nva)"             ("vs" c(30) t(all artillery rocket) 	s(viet) n(2) g(art2) sc(62.50) b(v2) cw(0) cp(15)) {cost 1000} {fore 1}}
+
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"m113"             ("v" c(5) t(all) 				s(viet) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
+{"type63(nva)"             ("v" c(5) t(all) 				s(viet) n1(1) n2(1) g(lb2) sc(11.00) b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
+{"type63c(nva)"             ("v" c(5) t(all) 				s(viet) n1(1) n2(1) g(lb2) sc(11.00) b(v3) cw(0) cp(0)) {cost 160} {fore 1}}
+
+;medium_wheeled_apc
+{"btr60(nva)"             ("v" c(10) t(all) 				s(viet) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 145} {fore 1}}
+
+;heavy_apc
+{"bmp1"             ("v" c(20) t(all) 				s(viet) n1(2) n2(1) g(mb5) sc(11.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
+{"bmp2"              ("v" c(20) t(all) 				s(viet) n1(2) n2(1) g(mb5) sc(14.00) b(v3) cw(0) cp(10)) {cost 240} {fore 1}}
+{"ot_54"         ("v" c(20) t(all) 	s(viet) n1(4) n2(1) g(ott1) sc(16.40) b(v3) cw(0) cp(10)) {level 1} {cost 370} {fore 1}} 
+
+;spg_aa
+{"zsushilka(nva)"            ("v" c(15) t(all) 				s(viet) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"type62(nva)"            ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(lt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 350} {fore 1}} 
+{"t_54a"            ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 350} {fore 1}} 
+{"t_54b"            ("v" c(15) t(all medium) 		s(viet) n1(3) n2(1) g(mt1) sc(21.00) b(v4) cw(0) cp(15)) {cost 370} {fore 1}}	
+{"m48a1"         ("v" c(15) t(all medium) 	s(nva) n1(3) n2(1) g(mt1) sc(16.50) b(v4) cw(0) cp(15)) {level 1} {cost 390} {fore 1}} 
+
+;cold_war_tank
+{"china59-1(nva)"            ("v" c(25) t(all medium) 		s(viet) n1(3) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 410} {fore 1}}
+{"t_62m"            ("v" c(25) t(all medium) 		s(viet) n1(3) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 450} {fore 1}}
+{"t_72b"              ("v" c(25) t(all medium) 		s(viet) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 525} {fore 1}} 
+
+;heavy_modern_war_tank
+{"t_90a"            ("v" c(35) t(all medium) 		s(viet) n1(2) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(25)) {cost 900} {fore 1}}	
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"brdm2_atgm(nva)"           ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(atgm1) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
+{"type63_zdf-89(nva)"           ("v" c(15) t(all medium) 	s(viet) n1(1) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 270} {fore 1}}
+{"su100"           ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(mt2) sc(17.50) b(v5) cw(0) cp(10)) {cost 400} {fore 1}}
+{"pt76(nva)"             ("v" c(15) t(all) 				s(viet) n1(2) n2(1) g(lt0) sc(16.00) b(v5) cw(0) cp(10)) {cost 320} {fore 1}}
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"mi17(nva)"		("vh" c(60) t(all vehicle use_charge) s(viet) n(2) g(airhdat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 750} {fore -1}}
+{"mi4"			("vh" c(60) t(all vehicle use_charge) s(viet) n(2) g(airhdat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 650} {fore -1}}
+{"uh1"			("vh" c(60) t(all vehicle use_charge) s(viet) n(2) g(airhdat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 550} {fore -1}}

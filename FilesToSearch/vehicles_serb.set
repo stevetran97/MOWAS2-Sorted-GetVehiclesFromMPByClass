@@ -1,0 +1,83 @@
+;----- serbi -----
+
+
+
+
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"hummvee_m240"    ("vs" c(15) t(all inf_only)      s(serb) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
+{"hummvee"         ("vs" c(15) t(all) 				s(serb) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+
+;transport
+{"ural_zvezda"         ("vs" c(5) t(all) 			s(serb) n(2) g(t2) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+
+;logi
+{"ural-375_eng"      ("vs" c(15) t(all) 			s(serb) n(2) g(t3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"ural-4320_ammo"      ("vs" c(15) t(all) 			s(serb) n(2) g(t4) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+{"mtlb"   	    	("vs" c(15) t(all) 			s(serb) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+
+;hmg
+{"dshk_trenoga"     ("vs" c(5) t(all) 		s(serb) n(2) g(c1) sc(5.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+
+;mortar
+{"2b14"             ("vs" c(5) t(all) 			s(serb) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;gl
+{"ags30_stan"       ("vs" c(5) t(all) 			s(serb) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_fagot"       ("vs" c(5) t(all) 			s(serb) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {cost 180} {fore 1}}
+
+;aa_gun
+{"bofors"       ("vs" c(5) t(all) 			s(serb) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+{"zu_23"             ("vs" c(5) t(all) 		s(serb) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+
+;field_artillery
+{"d30a(pol)"             ("vs" c(5) t(all) 			s(pol) n(2) g(c5) sc(12.75) b(v2) cw(2) cp(5)) {cost 355} {fore 1}}
+
+;lightspgarty
+{"2c1_gvazdika"     ("v" c(20) t(all artillery) 			s(serb) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+
+;lightrocketarty
+{"uragan"             ("vs" c(30) t(all artillery rocket) 	s(serb) n(3) g(art7) sc(62.50) b(v2) cw(0) cp(15)) {cost 1200} {fore 1}}
+
+;heavyrocketarty
+{"kamaz-tornado-g"             ("vs" c(30) t(all artillery rocket) 	s(serb) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(20)) {cost 1200} {fore 1}}
+
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"brdm2"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb3) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
+{"btr50pb"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
+
+;spg_aa
+{"sa13"           ("v" c(15) t(all medium) 	s(serb) n1(3) n2(1) g(atgm2) sc(17.50) b(v3) cw(0) cp(10)) {cost 280} {fore 1}}
+
+;Button 4 - Main Battle Tanks -------------------------
+;cold_war_tank
+{"m_84(serbia)"         ("v" c(25) t(all medium) 	s(serb) n1(4) n2(1) g(mt1) sc(16.50) b(v4) cw(0) cp(15)) {level 1} {cost 500} {fore 1}}
+
+
+
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"brdm2_atgm"           ("v" c(15) t(all medium) 	s(serb) n1(3) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
+
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"mi17"			("vh" c(60) t(all vehicle use_charge) s(serb) n(2) g(airhat)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
+{"gazele"		("vp" c(60) t(all vehicle use_charge) s(serb) n(1) g(air)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}

@@ -1,0 +1,137 @@
+;----- USA Vehicle Roster -----
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"hummvee_m240"         ("vs" c(15) t(all)          s(usaf) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 150} {fore 1.0}}
+{"jeep_cj5_mgun"        ("vs" c(15) t(all) 		s(usaf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1.0}}
+{"hummvee"              ("vs" c(15) t(all) 		s(usaf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1.0}}
+{"caiman_m2"            ("vs" c(15) t(all) 		s(usaf) n(3) g(cm1) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 125} {fore 1.0}}
+{"hmmwv_turret"         ("vs" c(15) t(all) 		s(usaf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1.0}}
+{"hummvee_mk19"              ("vs" c(15) t(all) 		s(usaf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1.0}}
+
+;heavymgcar
+{"maxxpro"              ("vs" c(15) t(all) 		s(usaf) n1(3) g(cm2) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 180} {fore 1.0}}
+
+;transport
+{"m939"   	    	    ("vs" c(5) t(all) 			s(usaf) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
+{"mtvr"   	    	    ("vs" c(5) t(all) 			s(usaf) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 70} {fore 1.0}}
+{"mtvr_mgun"   	    	("vs" c(5) t(all) 			s(usaf) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 120} {fore 1.0}}
+
+;logi
+{"mtvr_ammo"          ("vs" c(15) t(all supply) 			s(usaf) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 1.0}}
+{"mtvr_ammo_mgun"     ("vs" c(15) t(all supply) 			s(usaf) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+;Engineering Trucks
+{"mtvr_rem"           ("vs" c(5) t(all) 			s(usaf) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1.0}}
+{"mtvr_rem_mgun"      ("vs" c(5) t(all) 			s(usaf) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 150} {fore 1.0}}
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"m240_tstanok"          ("vs" c(5) t(all cannon) 		s(usaf) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 50} {fore 1.0}}
+{"browning_trenoga"      ("vs" c(5) t(all cannon) 		s(usaf) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 60} {fore 01}}
+
+;mortar
+{"m252"                  ("vs" c(5) t(all cannon) 			s(usaf) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 80} {fore 1.0}}
+
+;gl
+{"mk19_stan"             ("vs" c(5) t(all cannon) 		s(usaf) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 80} {fore 1.0}}
+
+;atgm
+{"ptur_tow"      ("vs" c(5) t(all cannon) 			s(usaf) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1.0}}
+
+;field_artillery
+{"m119"          ("vs" c(5) t(all cannon) 			s(usaf) n(2) g(c6) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore 1.0}}
+{"m115"          ("vs" c(5) t(all cannon) 			s(usaf) n(2) g(c7) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore 1.0}}
+
+;light_mortar_spg
+{"m113art"        ("v" c(5) t(all artillery) 			s(usaf) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 230} {fore 1.0}}
+
+;lightspgarty
+{"lav_rino"       ("v" c(20) t(all artillery heavy) 	s(usaf) n1(3) n2(1) g(art2) sc(45.00) b(v2) cw(0) cp(15)) {cost 280} {fore 1.0}}
+
+;heavyspgarty
+{"m109"           ("v" c(30) t(all artillery heavy) 	s(usaf) n1(3) n2(1) g(art3) sc(50.00) b(v2) cw(0) cp(20)) {level 20} {cost 370} {fore 1.0}}
+{"m109a3"         ("v" c(30) t(all artillery heavy) 	s(usaf) n1(3) n2(1) g(art4) sc(50.00) b(v2) cw(0) cp(20)) {level 20} {cost 700} {fore 1.0}}
+{"m109a6"         ("v" c(30) t(all artillery heavy)	s(usaf) n1(3) n2(1) g(art5) sc(70.00) b(v2) cw(0) cp(20)) {level 23} {cost 1000} {fore 1.0}}
+
+;lightrocketarty
+{"m142"           ("vs" c(30) t(all artillery rocket) 	s(usaf) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(15)) {cost 900} {fore 1.0}}
+
+;heavyrocketarty
+{"m270"           ("vs"  c(30) t(all artillery rocket) s(usaf) n(3) g(art7) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1.0}}
+{"m270(1)"        ("vs"  c(30) t(all artillery rocket) s(usaf) n(3) g(art7) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1220} {fore 1.0}}
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"stryker_browning"             ("v" c(5) t(all medium) 		s(usaf) n1(2) n2(1) g(lb1) sc(9.00)  b(v3) cw(0) cp(0)) {cost 220} {fore 1.0}}
+
+{"m113"               ("v" c(5) t(all medium) 				s(usaf) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"m113a3"             ("v" c(5) t(all medium) 			s(usaf) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 150} {fore 1.0}}
+{"fav"                ("v" c(5) t(all medium) 				s(usaf) n1(2) n2(1) g(lb4) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 230} {fore 1.0}}
+
+;medium_wheeled_apc
+{"lav_25"                       ("v" c(10) t(all medium) 				s(usaf) n1(2) n2(1) g(lb2) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore 1.0}}	
+{"lav25a"                       ("v" c(10) t(all medium) 				s(usaf) n1(2) n2(1) g(lb2) sc(13.00) b(v3) cw(0) cp(5)) {level 1} {cost 380} {fore 1.0}}
+
+;heavy_apc
+{"m2a1"               ("v" c(20) t(all medium) 			s(usaf) n1(2) n2(1) g(mb1) sc(19.00) b(v3) cw(0) cp(10)) {level 1} {cost 400} {fore 1.0}}
+{"m2a2"               ("v" c(20) t(all medium) 			s(usaf) n1(2) n2(1) g(mb2) sc(19.00) b(v3) cw(0) cp(10)) {level 1} {cost 410} {fore 1.0}}
+{"m2a3"               ("v" c(20) t(all medium) 			s(usaf) n1(2) n2(1) g(mb3) sc(22.50) b(v3) cw(0) cp(10)) {level 15} {cost 420} {fore1}}
+
+{"m551"               ("v" c(20) t(all medium) 				s(usaf) n1(2) n2(1) g(lt1) sc(16.00) b(v3) cw(0) cp(10)) {cost 350} {fore 1.0}}
+{"m67"           ("v" c(20) t(all medium) 	s(usaf) n1(4) n2(1) g(oot1) sc(16.40) b(v3) cw(0) cp(10)) {level 1} {cost 390} {fore 1.0}} 
+
+;spg_aa
+{"m163"              ("v" c(15) t(all medium) 				s(usaf) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 180} {fore 1.0}}
+{"m163a1"            ("v" c(15) t(all medium) 			s(usaf) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1.0}}
+
+{"m2_len"            ("v" c(15) t(all medium) 			s(usaf) n1(3) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1.0}}
+{"m1097_avenger"     ("v" c(15) t(all medium) 			s(usaf) n1(2) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1.0}}
+
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"m48a1"        ("v" c(15) t(all medium) 	  s(usaf) n1(4) n2(1) g(mt1) sc(16.50) b(v4) cw(0) cp(15)) {level 1} {cost 390} {fore 1.0}} 
+{"m60a4"        ("v" c(15) t(all medium) 		s(usaf) n1(4) n2(1) g(mt3) sc(22.00) b(v4) cw(0) cp(15)) {level 1} {cost 470} {fore 1.0}} 	
+
+;cold_war_tank
+{"mbt70"        ("v" c(25) t(all heavy) 		  s(usaf) n1(4) n2(1) g(ot2) sc(40.00) b(v4) cw(0) cp(15)) {level 1} {cost 600} {fore 1.0}} 	
+
+;heavy_cold_war_tank
+{"m1"         	("v" c(25) t(all heavy) 		  s(usaf) n1(4) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(15)) {level 1} {cost 540} {fore 1.0}} 
+{"m1a1"         ("v" c(25) t(all heavy) 		  s(usaf) n1(4) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 1.0}}
+
+;heavy_modern_war_tank
+{"m1a2"         ("v" c(35) t(all heavy) 			s(usaf) n1(4) n2(1) g(ot3) sc(50.00) b(v4) cw(0) cp(25)) {level 1} {cost 700} {fore 1.0}} 
+{"m1a2_kom"     ("v" c(35) t(all heavy) 			s(usaf) n1(4) n2(1) g(ot3) sc(50.00) b(v4) cw(0) cp(25)) {level 1} {cost 750} {fore 1.0}}
+
+;very_heavy_modern_war_tank
+{"m1a2_tusk"    ("v" c(35) t(all heavy) 		  s(usaf) n1(4) n2(1) g(ot4) sc(75.00) b(v4) cw(0) cp(25)) {level 20} {cost 950} {fore 1.0}}
+{"m1a2_sel"     ("v" c(35) t(all heavy) 			s(usaf) n1(4) n2(1) g(ot4) sc(75.00) b(v4) cw(0) cp(25)) {level 20} {cost 1000} {fore 1.0}}
+
+	
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"hummvee_tow"       ("v" c(15) t(all medium) 		s(usaf) n1(3) n2(1) g(atgm1) sc(14.00) b(v5) cw(0) cp(10)) {cost 200} {fore 1.0}}
+{"m113a4"          ("v" c(15) t(all medium) 		s(usaf) n1(3) n2(1) g(atgm2) sc(14.00) b(v5) cw(0) cp(10)) {cost 200} {fore 1.0}}
+;tank_destroyer
+{"m1128"           ("v"  c(15) t(all medium) 		s(usaf) n1(3) n2(1) g(atgm3) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 350} {fore 1.0}}	
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"f4f"		      ("vh" c(60) t(all vehicle) s(usaf) n(2) g(airdhes)  sc(20) b(special)  i(1) m(1) cw(0) cp(20)) {cost 800} {fore 1.0}}
+{"uh1_m60"		  ("vh" c(60) t(all vehicle) s(usaf) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 550} {fore 1.0}}
+{"uh-60"		    ("vh" c(60) t(all vehicle) s(usaf) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore 1.0}}
+{"uh-60at"		  ("vh" c(60) t(all vehicle) s(usaf) n(4) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 650} {fore 1.0}}
+{"mh-6_attack"  ("vh" c(60) t(all vehicle) s(usaf) n(2) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore 1.0}}
+{"supercobra"		("vh" c(60) t(all vehicle) s(usaf) n(2) g(airhdes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 800} {fore 1.0}}
+{"apache"		    ("vh" c(60) t(all vehicle) s(usaf) n(2) g(airdhes)  sc(20) b(special)  i(1) m(1) cw(0) cp(20)) {cost 850} {fore 1.0}}
+{"mq-9"		      ("vh" c(60) t(all vehicle) s(usaf) g(airdhes)  sc(20) b(special)  i(1) m(1) cw(0) cp(20)) {cost 1200} {fore 1.0}}

@@ -1,0 +1,94 @@
+;----- Greece -----
+
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"hummvee_m240"         ("vs" c(15) t(all inf_only)          s(gre) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
+{"hummvee"         ("vs" c(15) t(all) 		s(gre) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+{"caiman_m2"       ("vs" c(15) t(all) 		s(gre) n(3) g(cm1) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 125} {fore 1}}
+
+;transport
+{"m939a1"         ("vs" c(5) t(all) 			s(gre) n(2) g(t2) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+
+;logi
+{"m939a1_eng"      ("vs" c(15) t(all) 			s(gre) n(2) g(t3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"m939a1_amo"      ("vs" c(15) t(all) 			s(gre) n(2) g(t4) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"m240_tstanok"    ("vs" c(5) t(all) 		s(gre) n(2) g(c1) sc(5.00) b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+{"browning_trenoga"           ("vs" c(5) t(all) 		s(gre) n(1) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 1}}
+
+;aa_gun
+{"zu_23"             ("vs" c(5) t(all) 		s(gre) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+
+;mortar
+{"m252"         ("vs" c(5) t(all) 			s(gre) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1}}
+
+;gl
+{"mk19_stan"             ("vs" c(5) t(all) 		s(gre) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow"        ("vs" c(5) t(all) 			s(gre) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
+
+
+;light_mortar_spg
+{"m113art"               ("v" c(5) t(all artillery) 			s(gre) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
+
+;lightspgarty
+{"m109"           ("v" c(20) t(all artillery heavy) 	s(gre) n1(3) n2(1) g(art3) sc(50.00) b(v2) cw(0) cp(15)) {level 20} {cost 900} {fore 1}}
+{"m109a3"           ("v" c(20) t(all artillery heavy) 	s(gre) n1(3) n2(1) g(art4) sc(50.00) b(v2) cw(0) cp(15)) {level 20} {cost 950} {fore 1}}
+
+;heavyspgarty
+{"m109a6"           ("v" c(30) t(all artillery heavy)	s(gre) n1(3) n2(1) g(art5) sc(70.00) b(v2) cw(0) cp(20)) {level 23} {cost 1000} {fore 1}}
+{"pzh2000"           ("v" c(30) t(all artillery heavy) 	s(gre) n1(4) n2(1) g(art4) sc(50.00) b(v2) cw(0) cp(20)) {level 20} {cost 1000} {fore 1}}
+
+;heavyrocketarty
+{"m270"           ("vs"  c(30) t(all artillery rocket) s(gre) n(3) g(art7) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1}}
+
+
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"m113"             ("v" c(5) t(all) 				s(gre) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
+
+;heavy_apc
+{"bmp1"             ("v" c(20) t(all) 				s(gre) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"m48a1"         ("v" c(15) t(all medium) 	s(gre) n1(4) n2(1) g(mt1) sc(16.50) b(v4) cw(0) cp(15)) {level 1} {cost 390} {fore 1}} 
+
+;cold_war_tank
+{"m60a2"          ("v" c(25) t(all medium) 		s(gre) n1(4) n2(1) g(mt3) sc(22.00) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore 1}} 	
+
+;heavy_modern_war_tank
+{"leoparda2a4"             ("v" c(35) t(all medium) 		s(gre) n1(3) n2(1) g(mt4) sc(27.50) b(v4) cw(0) cp(25)) {level 1} {cost 550} {fore 1}}			
+;super_heavy_modern_war_tank
+{"leopard2a6"            ("v" c(35) t(all heavy) 		s(gre) n1(3) n2(1) g(mt5) sc(120.00) b(v4) cw(0) cp(25)) {level 20} {cost 950} {fore 1}} 
+
+
+	
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+
+{"hummvee_tow"             ("vs" c(15) t(all medium) 		s(gre) n1(3) n2(1) g(atgm1) sc(14.00) b(v5) cw(0) cp(10)) {cost 120} {fore 1}}
+{"m113a4"             ("v" c(15) t(all medium) 		s(gre) n1(3) n2(1) g(atgm2) sc(14.00) b(v5) cw(0) cp(10)) {cost 200} {fore 1}}
+
+	
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+
+{"apache"		("vh" c(60) t(all vehicle use_charge) s(gre) n(2) g(airdhes)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}

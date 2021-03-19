@@ -9,7 +9,8 @@ import os
 # Replacement pattern order must match the order of replacement text below
 # Include all english characters and english special characters (without space)
 # vehicleNamePattern = r'{"[a-zA-z0-9~@#$^*()_+=[\]{}|\\,.?:-]+"'
-vehicleNamePattern = r'[a-zA-z0-9~@#$^*()_+=[\]|\\,.?:-]+'
+vehicleNamePattern = r'\"[a-zA-z0-9~@#$^*()_+=[\]|\\,.?:-]+\"'
+print("vehicleNamePattern = ", vehicleNamePattern)
 outputFilePath = r'.\vehicleList.txt'
 
 costPattern = r'cost [0-9]+'
@@ -56,8 +57,6 @@ sortClasses = {
 vehicleCostHashByUnit = {
 
 }
-print('\n\nInitialize mainhash in vehicleCostHashByUnit = ',
-      vehicleCostHashByUnit)
 # isCollecting trigger for enable line to be added to hash table. False by default
 isCollecting = False
 fileToSearchDirectory = r'.\FilesToSearch'
@@ -87,15 +86,11 @@ def foundPatternInLine(text_to_search):
 
 def checkUpdateHash(stringPatternMatch, costValue):
     # Debugging
-    # print("stringPatternMatch", stringPatternMatch, "\n")
-
-    # print("Type: ", type(stringPatternMatch), "\n\n")
-    # print("vehicleCostHashByUnit", vehicleCostHashByUnit, "\n")
-    # print("Type: ", type(vehicleCostHashByUnit), "\n\n")
+    print("Checking stringPatternMatch = ", stringPatternMatch, "\n")
 
     # If already in subhash, do not add anything
     if stringPatternMatch in vehicleCostHashByUnit[sortClass]:
-        print('Vehicle Already in Table')
+        print('Vehicle Already in Table: {}'.format(stringPatternMatch))
     else:
         # Adds vehicle entry to hash table if not in table
         vehicleCostHashByUnit[sortClass][stringPatternMatch] = costValue
@@ -105,6 +100,11 @@ def checkUpdateHash(stringPatternMatch, costValue):
 def writeOutput(outputText):
     # Open output file
     d = open(outputFilePath, 'w')
+    # Sort all values in all subhashes
+    for sortClass in vehicleCostHashByUnit:
+        vehicleCostHashByUnit[sortClass] = sortHashAlphab(
+            vehicleCostHashByUnit[sortClass])
+
     # Write from each sortClass
     for sortClass in vehicleCostHashByUnit:
         d.write('\n#{}\n'.format(sortClass))
@@ -116,12 +116,23 @@ def writeOutput(outputText):
                 rawCost = re.findall(r'[0-9]+', rawCost)[0]
             else:
                 rawCost = vehicleCostHashByUnit[sortClass][entry]
-            d.write('\'{}\': {},\n'.format(entry, rawCost))
+            d.write('{}: {},\n'.format(entry, rawCost))
+
+# Sorts any hashTable alphabetically and returns sorted hash table
 
 
-# Main Code
+def sortHashAlphab(hashTable):
+    sortedKeys = sorted(hashTable)
+    newSortedHash = {}
+    for key in sortedKeys:
+        newSortedHash[key] = hashTable[key]
+    return newSortedHash
+
+
+# ----------------------------------------------------------------------------
+# Main Code/ Algorithm
 for sortClass in sortClasses:
-    # print('\n\ncurrent sortClass = ', sortClass)
+
     vehicleCostHashByUnit[sortClass] = {}
     print('\n\nInitialize subhash in {} = '.format(sortClass),
           vehicleCostHashByUnit[sortClass])
@@ -162,12 +173,24 @@ for sortClass in sortClasses:
 
 
 # Print final resulting table
-print("EndResult = ", vehicleCostHashByUnit)
 writeOutput(vehicleCostHashByUnit)
 
 
+# print('\n\nInitialize mainhash in vehicleCostHashByUnit = ',
+#       vehicleCostHashByUnit)
+# print("Type: ", type(stringPatternMatch), "\n\n")
+# print("vehicleCostHashByUnit", vehicleCostHashByUnit, "\n")
+# print("Type: ", type(vehicleCostHashByUnit), "\n\n")
+# print('\n\ncurrent sortClass = ', sortClass)
+# print("EndResult = ", vehicleCostHashByUnit)
 # print('\n\nFinal mainhash in = ',
 #       vehicleCostHashByUnit)
 
 # print('\n\nFinal subhash in {} = '.format(sortClass),
 #         vehicleCostHashByUnit[sortClass])
+
+# print("Unsorted lightmgcar Hash = ",
+#       vehicleCostHashByUnit["lightmgcar"])
+# print("Sorted lightmgcar Hash = ", sorted(
+#     vehicleCostHashByUnit["lightmgcar"]))
+# print("sortHashAlphab Function = ", )

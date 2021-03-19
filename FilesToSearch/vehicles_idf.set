@@ -1,0 +1,82 @@
+;----- State of Israel -----
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+
+{"hummvee_m240"         ("vs" c(15) t(all inf_only)          s(usa) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
+{"hummvee"         ("vs" c(15) t(all) 		s(idf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+
+;transport
+{"m939"   	    	("vs" c(5) t(all) 			s(idf) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
+
+;logi
+{"m939_ammo"          ("vs" c(15) t(all) 			s(idf) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+
+
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"brauning_mini"   ("vs" c(5) t(all) 			s(idf) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 120} {fore 1}}
+{"fnmag_tstanok(fra)"     ("vs" c(5) t(all) 	s(idf) n(2) g(c1) sc(5.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+
+;gl
+{"mk19_stan"       ("vs" c(5) t(all) 			s(idf) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;mortar
+{"m252"             ("vs" c(5) t(all) 			s(idf) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow"        ("vs" c(5) t(all) 			s(idf) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
+
+;light_mortar_spg
+{"m113art(isr)"           ("v" c(5) t(all) 		s(idf) n1(3) n2(1) g(art3) sc(50.00) b(v2) cw(0) cp(5)) {level 20} {cost 450} {fore 1}}
+
+;lightspgarty
+{"m109"           ("v" c(20) t(all artillery heavy) 	s(idf) n1(3) n2(1) g(art3) sc(50.00) b(v2) cw(0) cp(15)) {level 20} {cost 900} {fore 1}}
+
+;heavyrocketarty
+{"m270"           ("vs"  c(30) t(all artillery rocket) s(idf) n(2) g(art7) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1}}
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"m113(isr)"             ("v" c(5) t(all) 				s(idf) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 120} {fore 1}}
+{"m113a3(isr)"             ("v" c(5) t(all) 				s(idf) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 140} {fore 1}}
+{"namer"             ("v" c(5) t(all) 				s(idf) n1(3) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 200} {fore 1}}
+
+;heavy_apc
+{"ifv-6a"            ("v" c(20) t(all) 				s(idf) n1(3) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 330} {fore 1}}
+
+;spg_aa
+{"m163machbet"            ("v" c(15) t(all) 				s(idf) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 310} {fore 1}}
+
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"centurion_mk7_shot"            ("v" c(15) t(all medium) 	s(idf) n1(4) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 400} {fore 1}} 
+{"ti67"            ("v" c(15) t(all medium) 		s(idf) n1(4) n2(1) g(mt1) sc(25.00) b(v4) cw(0) cp(15)) {cost 470} {fore 1}} 
+
+;cold_war_tank
+{"m60m6"          ("v" c(25) t(all medium) 		s(idf) n1(4) n2(1) g(mt3) sc(22.00) b(v4) cw(0) cp(15)) {level 1} {cost 470} {fore 1}} 
+{"magach7c_gimel"          ("v" c(25) t(all medium) 		s(idf) n1(4) n2(1) g(mt3) sc(22.00) b(v4) cw(0) cp(15)) {level 1} {cost 520} {fore 1}} 
+
+;very_heavy_modern_war_tank
+{"merkava_mk4"              ("v" c(35) t(all medium) 		s(idf) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(25)) {cost 900} {fore 1}} 
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"hummvee_tow"       ("v" c(15) t(all medium) 		s(idf) n1(3) n2(1) g(atgm1) sc(14.00) b(v5) cw(0) cp(10)) {cost 200} {fore 1.0}}
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"apache"		("vh" c(60) t(all vehicle use_charge) s(idf) n(2) g(airhat3)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 800} {fore -1}}

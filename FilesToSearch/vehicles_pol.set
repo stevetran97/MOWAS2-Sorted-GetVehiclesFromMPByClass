@@ -1,0 +1,120 @@
+;----- Poland -----
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"uaz-469_mg(pol)"              ("vs" c(15) t(all) 		s(pol) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
+{"skorpion3"              ("vs" c(15) t(all) 			s(pol) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 70} {fore 1}}
+{"tumak_pkm"       ("vs" c(15) t(all inf_only) s(pol) n(6) g(cm1) sc(5.50) b(v1) cw(0) cp(0)) {level 4} {cost 90} {fore 1}}
+{"tumak"       ("vs" c(15) t(all inf_only) s(pol) n(6) g(cm1) sc(5.50) b(v1) cw(0) cp(0)) {level 4} {cost 110} {fore 1}}
+
+;transport
+{"star266"         ("vs" c(5) t(all) 			s(pol) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
+{"jelcz442"         ("vs" c(5) t(all) 			s(pol) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 55} {fore 1}}
+{"jelcz662"         ("vs" c(5) t(all) 			s(pol) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 60} {fore 1}}
+
+;heavymgcar
+{"btr-40(pol)"        ("vs" c(15) t(all) 			s(pol) n(3) g(lb1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+
+;logi
+{"ural-375_eng(pol)"      ("vs" c(15) t(all) 			s(pol) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"ural-4320_ammo(pol)"      ("vs" c(15) t(all) 			s(pol) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+{"ural-atz-5-4320_fuel(pol)"         ("vs" c(15) t(all) 			s(pol) n(2) g(t4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore 1}}
+{"mtlb(pol)"        ("vs" c(15) t(all) 			s(pol) n(3) g(lb0) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 130} {fore 1}}
+
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"dshkm_mini"   ("vs" c(5) t(all) 		        s(pol) n(2) g(c1) sc(5.50)  b(v2) cw(2) cp(5)) {cost 110} {fore 1}}
+
+;aa_gun
+{"zu_23(pol)"             ("vs" c(5) t(all) 		s(pol) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+
+;mortar
+{"2b14(pol)"             ("vs" c(5) t(all) 		s(pol) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_fagot"       ("vs" c(5) t(all) 			s(pol) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {cost 180} {fore 1}}
+
+;at_gun
+{"spg_9(pol)"              ("vs" c(5) t(all) 			s(pol) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {cost 135} {fore 1}}
+
+;field_artillery
+{"d30a(pol)"             ("vs" c(5) t(all) 			s(pol) n(2) g(c5) sc(12.75) b(v2) cw(2) cp(5)) {cost 355} {fore 1}}
+
+
+;light_mortar_spg
+{"mtlb_art(pol)"               ("v" c(5) t(all artillery) 			s(pol) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
+
+;lightspgarty
+{"2c1_gvazdika(pol)"            ("v" c(20) t(all artillery) 			s(pol) n1(3) n2(1) g(art2) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+
+;heavyspgarty
+{"dana"           ("v"  c(30) t(all artillery heavy) 	s(pol) n1(4) n2(1) g(art3) sc(67.50) b(v2) cw(0) cp(20)) {cost 950} {fore 1}} 	
+{"pion(pol)"           ("v"  c(30) t(all artillery heavy) 	s(pol) n1(4) n2(1) g(art4) sc(67.50) b(v2) cw(0) cp(20)) {cost 1200} {fore 1}} 
+
+;heavyrocketarty
+{"ural_grad(pol)"             ("vs" c(30) t(all artillery rocket) 	s(pol) n(2) g(art5) sc(62.50) b(v2) cw(0) cp(20)) {cost 1000} {fore 1}}
+{"bm23"             ("vs" c(30) t(all artillery rocket) 	s(pol) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(20)) {cost 1010} {fore 1}}
+
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"brdm1(pol)"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
+{"brdm2(pol)"             ("v" c(5) t(all) 				s(pol) n1(1) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
+{"zbik-a"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
+{"topas"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(mb1) sc(16.00) b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
+{"topas-2ap"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(mb1) sc(16.00) b(v3) cw(0) cp(0)) {cost 170} {fore 1}}
+
+;medium_wheeled_apc
+{"rosomak"             ("v" c(10) t(all) 				s(pol) n1(2) n2(1) g(lb3) sc(9.00)  b(v3) cw(0) cp(5)) {cost 200} {fore 1}}
+
+
+;heavy_apc
+{"bmp1(pol)"             ("v" c(20) t(all) 				s(pol) n1(2) n2(1) g(mb2) sc(16.00) b(v3) cw(0) cp(10)) {cost 220} {fore 1}}
+{"bmp1p(pol)"             ("v" c(20) t(all) 				s(pol) n1(2) n2(1) g(mb2) sc(16.00) b(v3) cw(0) cp(10)) {cost 220} {fore 1}}
+{"bmp2(pol)"              ("v" c(20) t(all) 				s(pol) n1(2) n2(1) g(mb3) sc(14.00) b(v3) cw(0) cp(10)) {cost 240} {fore 1}}
+{"to_55a"         ("v" c(20) t(all) 	s(pol) n1(4) n2(1) g(oot1) sc(16.40) b(v3) cw(0) cp(10)) {level 1} {cost 400} {fore 1}} 
+
+;spg_aa
+{"mtlb_zu(pol)"            ("v" c(15) t(all) 				s(pol) n1(2) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 250} {fore 1}}
+{"bmp_zu23(pol)"            ("v" c(15) t(all) 				s(pol) n1(2) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 290} {fore 1}}
+{"zsushilka(pol)"            ("v" c(15) t(all) 			s(pol) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 325} {fore 1}}
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"t_54-3"            ("v" c(15) t(all medium) 		s(pol) n1(3) n2(1) g(mt1) sc(21.00) b(v4) cw(0) cp(15)) {cost 370} {fore 1}}	
+{"t_55a(pol)"            ("v" c(15) t(all medium) 	s(pol) n1(3) n2(1) g(mt2) sc(17.50) b(v4) cw(0) cp(15)) {cost 400} {fore 1}} 
+
+;heavy_cold_war_tank
+{"t_72m(pol)"              ("v" c(25) t(all medium) 		s(pol) n1(3) n2(1) g(mt3) sc(26.25) b(v4) cw(0) cp(15)) {cost 500} {fore 1}} 
+{"leoparda2a4(pol)"             ("v" c(25) t(all medium) 		s(pol) n1(3) n2(1) g(mt4) sc(27.50) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 1}}	
+
+;super_heavy_modern_war_tank
+{"leopard2a5"             ("v" c(35) t(all heavy) 		s(germany) n1(3) n2(1) g(mt5) sc(67.50) b(v4) cw(0) cp(25)) {level 10} {cost 920} {fore 1}}		
+
+
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"uaz_spg9(pol)"             ("vs" c(15) t(all medium) 		s(pol) n1(3) n2(1) g(atgm1) sc(14.00) b(v5) cw(0) cp(10)) {cost 90} {fore 1}}
+{"brdm2_atgm(pol)"           ("v" c(15) t(all medium) 	s(pol) n1(3) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
+{"su-122-54(pol)"           ("v"  c(15) t(all heavy) 		s(pol) n1(3) n2(1) g(atgm3) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 450} {fore 1}}
+{"pt76(pol)"             ("v" c(15) t(all) 				s(pol) n1(2) n2(1) g(lt1) sc(16.00) b(v5) cw(0) cp(10)) {cost 320} {fore 1}}
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"mi17(pol)"		("vh" c(60) t(all vehicle use_charge) s(pol) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
+{"w-3"			("vh" c(60) t(all vehicle use_charge) s(pol) n(4) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}
+{"mi-24v(pol)"		("vh" c(60) t(all vehicle use_charge) s(pol) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 800} {fore -1}}
