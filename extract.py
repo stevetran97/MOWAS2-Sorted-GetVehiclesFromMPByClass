@@ -100,7 +100,7 @@ def checkUpdateHash(stringPatternMatch, costValue):
 def writeOutput(outputText):
     # Open output file
     d = open(outputFilePath, 'w')
-    # Sort all values in all subhashes
+    # Sort all values in all subhashes and replace working main hash table
     for sortClass in vehicleCostHashByUnit:
         vehicleCostHashByUnit[sortClass] = sortHashAlphab(
             vehicleCostHashByUnit[sortClass])
