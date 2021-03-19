@@ -170,7 +170,8 @@ for sortClass in sortClasses:
                         # Check and maybe Update Hash table with info
                         checkUpdateHash(
                             stringPatternMatch[0], formattedCost)
-
+            # Reset isCollecting mode to default at end of file
+            isCollecting = False
 
 # Print final resulting table
 writeOutput(vehicleCostHashByUnit)
