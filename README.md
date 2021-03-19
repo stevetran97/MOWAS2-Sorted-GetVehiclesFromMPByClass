@@ -37,4 +37,4 @@ Can be used to extract all unique vehicles (and properties) from a set of roster
             - If not, it adds an entry
 
 ## Current Intrinsic Issues/Assumptions
-  - Assumes that all similar entries between roster files have the same cost. The hash table stores the first one it gets.
+  - Assumes that all duplicate entries between roster files have the same cost. The hash table stores the first one it gets.
