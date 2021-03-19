@@ -1,0 +1,77 @@
+;----- Commonwealth -----
+
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"landrover109_mgun(fr)"     ("vs" c(15) t(all inf_only) s(fr) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
+{"vabl"        ("vs" c(15) t(all) 			s(fr) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1}}
+{"landrover109_t(fr)"      ("vs" c(15) t(all) 			s(fr) n(2) g(t1) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
+
+;heavymgcar
+{"vab"                      ("v" c(15) t(all) 				s(fr) n1(2) n2(1) g(lb1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
+
+;logi
+{"m939_eng"        ("vs" c(15) t(all) 			s(fr) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 75} {fore 1}}
+{"mtvr_ammo"        ("vs" c(15) t(all) 			s(fr) n(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1}}
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"fnmag_tstanok(fra)"       ("vs" c(5) t(all) 		s(fr) n(2) g(c1) sc(5.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+
+;mortar
+{"l16(fra)"		    	        ("vs" c(5) t(all) 			s(fr) n(2) g(c2) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1}}
+
+;gl
+{"mk19_stan(fra)"           ("vs" c(5) t(all) 		s(fr) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow(fra)"       	    ("vs" c(5) t(all) 			s(fr) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
+
+;heavyspgarty
+{"ltm1"          ("vs" c(30) t(all) 			s(fr) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 400} {fore 1}}
+
+;heavyrocketarty
+{"m270(fra)"           ("art"  c(30) t(all artillery rocket) s(fr) n(2) g(art1) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1}}
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;medium_wheeled_apc
+{"VBCI"    	    	          ("v" c(10) t(all) 				s(fr) n1(2) n2(1) g(lb2) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore 1}}
+
+
+;spg_aa
+{"amx-30moskito"            ("v" c(15) t(all) 			s(fr) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 450} {fore 1}}
+{"frr_roland"       ("v" c(15) t(all) 			s(fr) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+{"frp_roland"       ("v" c(15) t(all) 			s(fr) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;cold_war_tank
+{"amx-30"          ("v" c(25) t(all medium) 		s(fr) n1(4) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1}}
+{"amx-30b2brenus"  ("v" c(25) t(all medium) 		s(fr) n1(4) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 550} {fore 1}}
+
+;heavy_modern_war_tank
+{"amx-56"          ("v" c(35) t(all medium) 		s(fr) n1(2) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(25)) {level 1} {cost 800} {fore 1}}
+
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"vab-hot"          ("v" c(15) t(all medium) 	s(fr) n1(2) n2(1) g(atgm1) sc(17.50) b(v5) cw(0) cp(10)) {cost 350} {fore 1}}
+{"aml90"            ("v"  c(15) t(all heavy) 		s(fr) n1(3) n2(1) g(atgm2) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 300} {fore 1}}
+{"amx_15"           ("v"  c(15) t(all heavy) 		s(fr) n1(2) n2(1) g(atgm3) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 450} {fore 1}}
+{"amx-13-90"                ("v" c(15) t(all) 				s(fr) n1(2) n2(1) g(lt1) sc(22.50) b(v5) cw(0) cp(10)) {level 15} {cost 340} {fore 1}}
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"pumahel2"	("vh" c(60) t(all vehicle use_charge) s(fr) n(4) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
+{"gazele"		("vh" c(60) t(all vehicle use_charge) s(fr) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 650} {fore -1}}
+{"tiger"		("vh" c(60) t(all vehicle use_charge) s(fr) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}
+{"tiger_b"	("vh" c(60) t(all vehicle use_charge) s(fr) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 750} {fore -1}}

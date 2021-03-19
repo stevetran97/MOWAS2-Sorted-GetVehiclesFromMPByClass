@@ -1,0 +1,115 @@
+;----- Russia -----
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"uaz-469_mg"              ("vs" c(15) t(all) 			s(bel) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
+
+;heavymgcar
+{"btr-40b_bel" ("vs_shared" c(15) v1(btr-40b) t(all) s(bel) n(2)          g(lb1) sc(5.50)   b(v1) cw(0) cp(0)) {level 1} {cost 120} {fore 1}}
+{"brdm2"             ("v" c(15) t(all) 				s(bel) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
+
+;transport
+{"ural_zvezda"         ("vs" c(5) t(all) 			s(bel) n(2) g(t2) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+
+;logi
+{"ural-375_eng"      ("vs" c(15) t(all) 			s(bel) n(2) g(t3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"ural-4320_ammo(rus)"      ("vs" c(15) t(all) 			s(bel) n(2) g(t4) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"kord_stan"   ("vs" c(5) t(all) 		s(bel) n(2) g(c1) sc(5.50)  b(v2) cw(2) cp(5)) {cost 110} {fore 1}}
+
+;aa_gun
+{"zu_23"             ("vs" c(5) t(all) 		s(bel) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {cost 170} {fore 1}}
+
+;mortar
+{"2b14"             ("vs" c(5) t(all) 		s(bel) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;gl
+{"ags30_stan"             ("vs" c(5) t(all) 		s(bel) n(2) g(c4) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_metis"              ("vs" c(5) t(all) 			s(bel) n(2) g(c5) sc(6.75)  b(v2) cw(2) cp(5)) {cost 190} {fore 1}}
+
+;at_gun
+{"mt12_rapira"             ("vs" c(5) t(all) 			s(bel) n(2) g(c6) sc(12.75) b(v2) cw(2) cp(5)) {cost 255} {fore 1}}
+
+;field_artillery
+{"d30a"             ("vs" c(5) t(all) 			s(bel) n(2) g(c7) sc(12.75) b(v2) cw(2) cp(5)) {cost 355} {fore 1}}
+
+;light_mortar_spg
+{"mtlb_art"               ("v" c(5) t(all artillery) 			s(bel) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
+
+;lightspgarty
+{"2c9"            ("v" c(20) t(all artillery) 			s(bel) n1(2) n2(1) g(art2) sc(45.00) b(v2) cw(0) cp(15)) {cost 750} {fore 1}}
+{"2c1_gvazdika"            ("v" c(20) t(all artillery) 			s(bel) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+
+;heavyspgarty
+{"msta"           ("v"  c(30) t(all artillery heavy) 	s(bel) n1(4) n2(1) g(art4) sc(67.50) b(v2) cw(0) cp(20)) {cost 1000} {fore 1}} 	
+{"malka"           ("vs"  c(30) t(all artillery heavy) 	s(bel) n1(4) n2(1) g(art5) sc(67.50) b(v2) cw(0) cp(20)) {cost 1200} {fore 1}} 
+
+;lightrocketarty
+{"uragan"             ("vs" c(30) t(all artillery rocket) 	s(bel) n(3) g(art7) sc(62.50) b(v2) cw(0) cp(15)) {cost 1200} {fore 1}}
+
+;heavyrocketarty
+{"ural_grad"             ("vs" c(30) t(all artillery rocket) 	s(bel) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(20)) {cost 1000} {fore 1}}
+
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"btr_70"             ("v" c(5) t(all) 				s(bel) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
+{"btr80"             ("v" c(5) t(all) 				s(bel) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(0)) {cost 160} {fore 1}}
+
+{"mtlb-6mb"             ("v" c(5) t(all) 				s(bel) n1(2) n2(1) g(lb6) sc(9.00)  b(v3) cw(0) cp(0)) {cost 230} {fore 1}}
+
+;heavy_apc
+{"bmd1"             ("v" c(20) t(all) 				s(bel) n1(2) n2(1) g(mb1) sc(11.00) b(v3) cw(0) cp(10)) {cost 190} {fore 1}}
+{"bmd1p"             ("v" c(20) t(all) 				s(bel) n1(2) n2(1) g(mb1) sc(11.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
+{"bmp1"             ("v" c(20) t(all) 				s(bel) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 210} {fore 1}}
+{"bmp1p"             ("v" c(20) t(all) 				s(bel) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 220} {fore 1}}
+{"bmp2"              ("v" c(20) t(all) 				s(bel) n1(2) n2(1) g(mb5) sc(14.00) b(v3) cw(0) cp(10)) {cost 240} {fore 1}}
+
+;spg_aa
+{"mtlb_zu"            ("v" c(15) t(all) 				s(bel) n1(2) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 250} {fore 1}}
+{"bmp_zu23"            ("v" c(15) t(all) 				s(bel) n1(2) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 290} {fore 1}}
+{"btr-3d"            ("v" c(15) t(all) 				s(bel) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+{"zsushilka3"            ("v" c(15) t(all) 				s(bel) n1(3) n2(1) g(aa4) sc(15.00) b(v3) cw(0) cp(10)) {cost 325} {fore 1}}
+{"tunguska"            ("v" c(15) t(all) 				s(bel) n1(3) n2(1) g(aa4) sc(15.00) b(v3) cw(0) cp(10)) {cost 370} {fore 1}}
+{"sa13"            ("v" c(15) t(all) 				s(bel) n1(3) n2(1) g(aa4) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+
+
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"t_55a"            ("v" c(15) t(all medium) 	s(bel) n1(4) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 400} {fore 1}} 
+{"t_55am"            ("v" c(15) t(all medium ) 	s(bel) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 410} {fore 1}} 
+
+;cold_war_tank
+{"t_62a"            ("v" c(25) t(all medium) 		s(bel) n1(4) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 420} {fore 1}}
+{"t_62mbt"            ("v" c(25) t(all medium) 		s(bel) n1(3) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 470} {fore 1}}	
+{"t_72a"              ("v" c(25) t(all medium) 		s(bel) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 500} {fore 1}} 
+{"t_72b"              ("v" c(25) t(all medium) 		s(bel) n1(3) n2(1) g(ot2) sc(26.25) b(v4) cw(0) cp(15)) {cost 525} {fore 1}} 	
+
+;heavy_cold_war_tank
+{"t_80bvkl"             ("v" c(25) t(all heavy) 			s(bel) n1(3) n2(1) g(ot3) sc(45.00) b(v4) cw(0) cp(15)) {cost 700} {fore 1}} 	
+	
+
+  
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"brdm2_atgm"           ("v" c(15) t(all medium) 	s(bel) n1(3) n2(1) g(atgm2) sc(17.50) b(v5) cw(0) cp(10)) {cost 250} {fore 1}}
+
+
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"mi17"		("vh" c(60) t(all vehicle use_charge) s(bel) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
+{"mi-24v"	("vh" c(60) t(all vehicle use_charge) s(bel) n(2) g(airhat)  sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 650} {fore -1}}

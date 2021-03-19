@@ -1,0 +1,97 @@
+;----- Commonwealth -----
+
+
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"landrover110"          ("vs" c(15) t(all inf_only) s(gb) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
+{"land_rover_sas"        ("vs" c(15) t(all) 			s(gb) n(4) g(cm2) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 90} {fore 1}}
+{"landrover109_t"        ("vs" c(15) t(all) 			s(gb) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
+
+;heavymgcar
+{"ridgback_d"             ("v" c(15) t(all) 				s(gb) n1(3) n3(scout:2) g(lb1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 100} {fore 1}}
+
+;transport
+{"bedfordmt"             ("vs" c(5) t(all) 			s(gb) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 45} {fore 1}}
+
+;logi
+{"bedfordmt_eng"         ("vs" c(15) t(all) 			s(gb) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
+{"bedford_support"       ("vs" c(15) t(all) 			s(gb) n(2) g(t4) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"m240_tstanok(eng)"     ("vs" c(5) t(all) 		s(gb) n(2) g(c1) sc(5.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+
+;mortar
+{"l16"		    	         ("vs" c(5) t(all) 			s(gb) n(2) g(c2) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1}}
+
+;gl
+{"mk19_stan(eng)"        ("vs" c(5) t(all) 		s(gb) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow(eng)"       	 ("vs" c(5) t(all) 			s(gb) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
+
+;field_artillery
+{"l119"              ("vs" c(5) t(all) 			s(gb) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 325} {fore 1}}
+{"long_tom"          ("vs" c(5) t(all) 			s(gb) n(2) g(c6) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 400} {fore 1}}
+
+;light_mortar_spg
+{"fv432_mortar"           ("v"  c(5) t(all artillery) 		s(gb) n1(3) n2(1) g(art1) sc(40.00) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
+
+;lightspgarty
+{"fv101_ebbot"            ("v" c(20) t(all artillery) 			s(gb) n1(2) n2(1) g(art2) sc(45.00) b(v2) cw(0) cp(15)) {cost 750} {fore 1}}
+{"crusader"            ("v" c(20) t(all artillery) 			s(gb) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
+{"m109a2(eng)"           ("v" c(20) t(all artillery heavy) 	s(gb) n1(3) n2(1) g(art4) sc(50.00) b(v2) cw(0) cp(15)) {level 20} {cost 950} {fore 1}}
+
+;heavyspgarty
+{"as90"           ("v" c(30) t(all artillery heavy) 	s(gb) n1(4) n2(1) g(art5) sc(50.00) b(v2) cw(0) cp(20)) {level 20} {cost 1000} {fore 1}}
+
+;heavyrocketarty
+{"m270(eng)"           ("vs"  c(30) t(all artillery rocket) s(gb) n(2) g(art6) sc(62.50) b(v2) cw(0) cp(20)) {level 23} {cost 1200} {fore 1}}
+
+;Button 3 - IFVS and AA -------------------------
+
+;light_apc
+{"fv432"    	    	("v" c(5) t(all) 				s(gb) n1(2) n2(1) g(lb2) sc(11.50) b(v3) cw(0) cp(0)) {level 1} {cost 140} {fore 1}}
+{"fv432_buldog"       ("v" c(5) t(all) 				s(gb) n1(2) n2(1) g(lb2) sc(12.00) b(v3) cw(0) cp(0)) {level 1} {cost 160} {fore 1}}
+
+;heavy_apc
+{"warior"             ("v" c(20) t(all) 				s(gb) n1(2) n2(1) g(mb1) sc(15.00) b(v3) cw(0) cp(10)) {level 1} {cost 240} {fore 1}}
+{"warlord"            ("v" c(20) t(all) 				s(gb) n1(2) n2(1) g(mb1) sc(15.00) b(v3) cw(0) cp(10)) {level 1} {cost 290} {fore 1}}
+{"fv510"              ("v" c(20) t(all) 				s(gb) n1(2) n2(1) g(mb2) sc(19.00) b(v3) cw(0) cp(10)) {level 1} {cost 250} {fore 1}}
+
+;spg_aa
+{"m163"            ("v" c(15) t(all) 				s(gb) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 290} {fore 1}}
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"centurion_mk7"       	    ("v" c(15) t(all medium) 	s(gb) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1}}
+{"centurion_mk10"             ("v" c(15) t(all medium) 		s(gb) n1(3) n2(1) g(mt1) sc(18.00) b(v4) cw(0) cp(15)) {level 5} {cost 425} {fore 1}}
+
+;cold_war_tank
+{"chiftein"  ("v" c(25) t(all medium) 		s(gb) n1(3) n2(1) g(e3) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 440} {fore 1}}
+{"chiftein_d"  ("v" c(25) t(all medium) 		s(gb) n1(3) n2(1) g(e3) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 460} {fore 1}}
+{"chiftein2"  ("v" c(25) t(all medium) 		s(gb) n1(3) n2(1) g(e3) sc(30.00) b(v4) cw(0) cp(15)) {level 1} {cost 430} {fore 1}}
+
+;very_heavy_modern_war_tank
+{"challenger"         ("v" c(35) t(all medium) 		s(gb) n1(3) n2(1) g(ot1) sc(37.50) b(v4) cw(0) cp(25)) {level 1} {cost 540} {fore 1}}
+{"challenger2"     ("v" c(35) t(all medium) 		s(gb) n1(4) n2(1) g(ot2) sc(40.00) b(v4) cw(0) cp(25)) {level 1} {cost 900} {fore 1}}
+{"challenger2_applique" ("v" c(35) t(all heavy) 			s(gb) n1(3) n2(1) g(ot2) sc(45.00) b(v4) cw(0) cp(25)) {level 1} {cost 910} {fore 1}} 	
+
+	
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"fv101-90"              ("v" c(15) t(all) 				s(gb) n1(4) n2(1) g(lt1) sc(22.50) b(v5) cw(0) cp(10)) {level 15} {cost 300} {fore 1}}
+{"fox"             ("v" c(15) t(all) 				s(gb) n1(3) n3(scout:2) g(lb1) sc(9.00)  b(v5) cw(0) cp(10)) {cost 170} {fore 1}}
+{"fv107"              ("v" c(15) t(all) 				s(gb) n2(4) g(lt1) sc(22.50) b(v5) cw(0) cp(10)) {level 15} {cost 320} {fore 1}}
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"apache"		("vh" c(60) t(all vehicle use_charge) s(gb) n(2) g(airdhes)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}
+{"gazele"		("vh" c(60) t(all vehicle use_charge) s(gb) n(2) g(airhat)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 800} {fore -1}}

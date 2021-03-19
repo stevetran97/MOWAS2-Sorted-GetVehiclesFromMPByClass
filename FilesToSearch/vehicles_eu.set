@@ -1,0 +1,88 @@
+;----- European Union -----
+;Button 1 - Logis and Transports --------------------
+
+;lightmgcar
+{"iveco_cammo-mg(eu)"     ("vs" c(15) t(all inf_only) s(eu) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 150} {fore 1}}
+{"iveco_cammo-brow(eu)"     ("vs" c(15) t(all inf_only) s(eu) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 160} {fore 1}}
+{"iveco_cammo-mk19(eu)"     ("vs" c(15) t(all inf_only) s(eu) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 180} {fore 1}}
+
+{"dingo(eu)"       ("vs" c(15) t(all) 		s(eu) n(3) g(cm1) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 120} {fore 1}}
+{"maxxpro"        ("v" c(15) t(all) 			s(eu) n1(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 180} {fore 1}}
+
+;heavymgcar
+{"vab(eu)"             ("v" c(15) t(all) 				s(eu) n1(2) n2(1) g(lb1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 170} {fore 1}}
+
+;transport
+{"man"         ("vs" c(5) t(all) 			s(eu) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 80} {fore 1}}
+{"man-7t"         ("vs" c(5) t(all) 			s(eu) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
+
+;logi
+{"man_amo"      ("vs" c(15) t(all) 			s(eu) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
+{"man_eng"      ("vs" c(15) t(all) 			s(eu) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
+
+
+
+;Button 2 - Emplacements and Artillery --------------------
+
+;emplacements
+;hmg
+{"mg3_tstanok"        ("vs" c(5) t(all) 		s(eu) n(2) g(c1) sc(6.00) b(v2) cw(2) cp(5)) {level 1} {cost 50} {fore 1}}
+
+;mortar
+{"l16(ger)"           ("vs" c(5) t(all) 			s(eu) n(2) g(c2) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 80} {fore 1}}
+
+;minigun
+{"md134_stan"             ("vs" c(5) t(all) 		s(eu) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 100} {fore 1}}
+
+;gl
+{"mk19_stan(fra)"           ("vs" c(5) t(all) 		s(eu) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {cost 350} {fore 1}}
+
+;atgm
+{"ptur_tow(ger)"         	("vs" c(5) t(all) 			s(eu) n(2) g(c5) sc(6.50)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1}}
+
+
+;Button 3 - IFVS and AA -------------------------
+
+;medium_wheeled_apc
+{"VBCI(eu)"    	    	("v" c(10) t(all) 				s(eu) n1(2) n2(1) g(lb2) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore 1}}
+
+;heavy_apc
+{"marder1a5(eu)"         ("v" c(20) t(all) 		s(eu) n1(2) n2(1) g(mb2) sc(9.00)  b(v3) cw(0) cp(10)) {level 1} {cost 300} {fore 1}}
+{"marder_t"         	    ("v" c(20) t(all) 		s(eu) n1(2) n2(1) g(mb3) sc(11.00) b(v3) cw(0) cp(10)) {level 1} {cost 400} {fore 1}}
+
+;spg_aa
+{"Gepard1A2(eu)"       ("vs" c(15) t(all)      		s(eu) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {level 10} {cost 300} {fore 1}}
+{"frr_roland"       ("v" c(15) t(all) 			s(eu) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+{"frp_roland"       ("v" c(15) t(all) 			s(eu) n1(3) n2(1) g(aa3) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
+
+;light_robot_mech
+{"mvxx1"       ("vs" c(40) t(all)      		s(eu)  g(aa1) sc(15.00) b(v4) cw(0) cp(10)) {level 10} {cost 300} {fore 1}}
+
+
+;Button 4 - Main Battle Tanks -------------------------
+
+;medium_tank
+{"pl01"  ("v" c(15) t(all medium) 		s(eu) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1}}
+
+;heavy_modern_war_tank
+{"arietemk2"  ("v" c(35) t(all medium) 		s(eu) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(25)) {level 1} {cost 700} {fore 1}}
+{"amx-56(eu)"     ("v" c(35) t(all medium) 		s(eu) n1(2) n2(1) g(ot1) sc(40.00) b(v4) cw(0) cp(25)) {level 1} {cost 800} {fore 1}}
+
+;super_heavy_modern_war_tank
+{"leopard2a7(eu)"           	("vs" c(35) t(all heavy) 			s(eu) n1(3) n2(1) g(mt6) sc(75.00) b(v4) cw(0) cp(25)) {cost 1000} {fore 1}}
+{"leopard2a8"           	("vs" c(35) t(all heavy) 			s(eu) n1(3) n2(1) g(mt6) sc(75.00) b(v4) cw(0) cp(25)) {cost 1500} {fore 1}}		
+
+;Button 5 - Tank Destroyers ------------------------------
+
+;tank_destroyer
+{"kentavr(eu)"           ("v"  c(15) t(all heavy) 		s(eu) n1(2) n2(1) g(atgm2) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 350} {fore 1}}
+{"amx_15"           ("v"  c(15) t(all heavy) 		s(eu) n1(2) n2(1) g(atgm3) sc(42.50) b(v5) cw(0) cp(10)) {level 1} {cost 350} {fore 1}}
+{"vab-hot(eu)"             ("v" c(15) t(all) 				s(eu) n1(2) n2(1) g(lb1) sc(9.00)  b(v5) cw(0) cp(10)) {cost 220} {fore 1}}
+
+;Button 6 - Aircraft ------------------------------
+
+;aircraft
+{"uh1"			("vh" c(60) t(all vehicle) s(eu) n(2) g(airhdat)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 600} {fore -1}}
+{"chinook"		("vh" c(60) t(all vehicle) s(eu) n(4) g(airhdes)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 400} {fore -1}}
+{"tiger"		("vh" c(60) t(all vehicle) s(eu) n(2) g(airhat)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 700} {fore -1}}
+{"tiger_b"		("vh" c(60) t(all vehicle) s(eu) n(2) g(airhat)	sc(20) b(special)  i(1) m(7) cw(0) cp(20)) {cost 800} {fore -1}}
