@@ -11,11 +11,10 @@
 
 ;transport;
 {"zis_151"      ("vs" c(5) t(all) 			s(viet) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 250} {fore 1}}
-
+{"zil157"         ("vs" c(15) t(all) 			s(viet) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
 
 ;logi;
 {"zil157_eng"      ("vs" c(15) t(all) 			s(viet) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
-{"zil157"         ("vs" c(15) t(all) 			s(viet) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
 {"zil157_fuel"         ("vs" c(15) t(all) 		s(viet) n(2) g(t4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
 
 
@@ -69,14 +68,15 @@
 {"m113"             ("v" c(5) t(all) 				s(viet) n1(2) n2(1) g(lb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 100} {fore 1}}
 {"type63(nva)"             ("v" c(5) t(all) 				s(viet) n1(1) n2(1) g(lb2) sc(11.00) b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
 {"type63c(nva)"             ("v" c(5) t(all) 				s(viet) n1(1) n2(1) g(lb2) sc(11.00) b(v3) cw(0) cp(0)) {cost 160} {fore 1}}
+{"btr60(nva)"             ("v" c(10) t(all) 				s(viet) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 145} {fore 1}}
 
 ;medium_wheeled_apc;
-{"btr60(nva)"             ("v" c(10) t(all) 				s(viet) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 145} {fore 1}}
+
 
 ;heavy_apc;
 {"bmp1"             ("v" c(20) t(all) 				s(viet) n1(2) n2(1) g(mb5) sc(11.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
 {"bmp2"              ("v" c(20) t(all) 				s(viet) n1(2) n2(1) g(mb5) sc(14.00) b(v3) cw(0) cp(10)) {cost 240} {fore 1}}
-{"ot_54"         ("v" c(20) t(all) 	s(viet) n1(4) n2(1) g(ott1) sc(16.40) b(v3) cw(0) cp(10)) {level 1} {cost 370} {fore 1}} 
+
 
 ;spg_aa;
 {"zsushilka(nva)"            ("v" c(15) t(all) 				s(viet) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 300} {fore 1}}
@@ -85,6 +85,7 @@
 ;Button 4 - Main Battle Tanks -------------------------;
 
 ;medium_tank;
+{"ot_54"         ("v" c(20) t(all) 	s(viet) n1(4) n2(1) g(ott1) sc(16.40) b(v4) cw(0) cp(10)) {level 1} {cost 370} {fore 1}} 
 {"type62(nva)"            ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(lt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 350} {fore 1}} 
 {"t_54a"            ("v" c(15) t(all medium) 	s(viet) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 350} {fore 1}} 
 {"t_54b"            ("v" c(15) t(all medium) 		s(viet) n1(3) n2(1) g(mt1) sc(21.00) b(v4) cw(0) cp(15)) {cost 370} {fore 1}}	

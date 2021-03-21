@@ -18,6 +18,8 @@
 
 ;emplacements;
 ;hmg;
+
+;aa_gun;
 {"zu_23"       	    ("vs" c(5) t(all) 			s(geo) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 190} {fore 1}}
 
 ;atgm;
@@ -27,11 +29,12 @@
 {"d30"          ("vs" c(5) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 400} {fore 1}}
 
 ;lightspgarty;
-{"dana"          ("vs" c(20) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(15)) {level 1} {cost 600} {fore 1}}
+
 
 ;heavyspgarty;
 {"msta"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 800} {fore 1}}
 {"akatcia"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 600} {fore 1}}
+{"dana"          ("vs" c(20) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(15)) {level 1} {cost 950} {fore 1}}
 {"pion"          ("vs" c(30) t(all) 			s(geo) n(2) g(c5) sc(11.25) b(v2) cw(2) cp(20)) {level 1} {cost 1000} {fore 1}}
 
 ;heavyrocketarty;
@@ -40,9 +43,12 @@
 
 ;Button 3 - IFVS and AA -------------------------;
 
-;medium_wheeled_apc;
+
+;light_apc;
 {"btr_70"             ("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb1) sc(9.00)  b(v3) cw(0) cp(5)) {cost 115} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb1) sc(9.00)  b(v3) cw(0) cp(5)) {cost 115} {fore 1}}
+
+;medium_wheeled_apc;
 {"btr80a"    	    	("v" c(10) t(all) 				s(geo) n1(2) n2(1) g(lb2) sc(11.50) b(v3) cw(0) cp(5)) {level 1} {cost 150} {fore 1}}
 
 

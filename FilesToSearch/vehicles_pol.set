@@ -14,6 +14,8 @@
 {"jelcz662"         ("vs" c(5) t(all) 			s(pol) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 60} {fore 1}}
 
 ;heavymgcar;
+{"brdm1(pol)"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
+{"brdm2(pol)"             ("v" c(5) t(all) 				s(pol) n1(1) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
 {"btr-40(pol)"        ("vs" c(15) t(all) 			s(pol) n(3) g(lb1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
 
 ;logi;
@@ -66,8 +68,7 @@
 ;Button 3 - IFVS and AA -------------------------;
 
 ;light_apc;
-{"brdm1(pol)"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
-{"brdm2(pol)"             ("v" c(5) t(all) 				s(pol) n1(1) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
+
 {"zbik-a"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
 {"topas"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(mb1) sc(16.00) b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
 {"topas-2ap"             ("v" c(5) t(all) 				s(pol) n1(2) n2(1) g(mb1) sc(16.00) b(v3) cw(0) cp(0)) {cost 170} {fore 1}}

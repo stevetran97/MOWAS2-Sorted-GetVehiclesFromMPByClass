@@ -6,7 +6,11 @@
 {"yongswydaiq"      ("vs" c(15) t(all) 			s(prc) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 150} {fore 1}}
 {"eq2050"           ("vs" c(15) t(all inf_only) s(prc) n(6) g(cm1) sc(5.50) b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1}}
 {"zzc-55"           ("vs" c(15) t(all) 			s(prc) n(3) g(lb1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+
+;heavymgcar;
 {"zsl56"            ("vs" c(15) t(all) 		s(prc) n(3) g(mb1) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 125} {fore 1}}
+
+;transport;
 {"rsx2190"          ("vs" c(15) t(all) 			s(prc) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
 
 ;logi;
@@ -38,18 +42,17 @@
 {"m30_1938"          ("vs" c(5) t(all) 			s(prc) n(2) g(c7) sc(11.25) b(v2) cw(2) cp(5)) {level 1} {cost 120} {fore 1}}
 {"type-96"             ("vs" c(5) t(all) 			s(prc) n(2) g(c8) sc(12.75) b(v2) cw(2) cp(5)) {cost 120} {fore 1}}
 
-;light_mortar_spg;
+;lightspgarty;
 {"type70_122"            ("v" c(5) t(all artillery) 			s(prc) n1(3) n2(1) g(art1) sc(45.00) b(v2) cw(0) cp(5)) {cost 400} {fore 1}}
 
 ;heavyspgarty;
 {"pzl-83"           ("v"  c(30) t(all artillery heavy) 	s(prc) n1(4) n2(1) g(art2) sc(67.50) b(v2) cw(0) cp(20)) {cost 900} {fore 1}} 	
 
-;Rocket Arty;
+;lightrocketarty;
 {"type63_type70_rocket"             ("vs" c(30) t(all artillery rocket) 	s(prc) n(2) g(art3) sc(62.50) b(v2) cw(0) cp(15)) {cost 850} {fore 1}}
 
 ;Button 3 - IFVS and AA -------------------------;
 ;light_apc;
-{"wz551"             ("v" c(5) t(all) 				s(prc) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 250} {fore 1}}
 {"type63"             ("v" c(5) t(all) 				s(prc) n1(1) n2(1) g(mb2) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 140} {fore 1}}
 {"type63c"             ("v" c(5) t(all) 				s(prc) n1(1) n2(1) g(mb2) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 160} {fore 1}}
 {"type63_zsd-90"             ("v" c(5) t(all) 			s(prc) n1(1) n2(1) g(mb3) sc(15.00) b(v3) cw(0) cp(0)) {level 1} {cost 210} {fore 1}}
@@ -57,12 +60,13 @@
 
 ;medium_wheeled_apc;
 {"zbl-09"              ("v" c(10) t(all) 				s(prc) n1(1) n2(1) g(mb7) sc(14.50) b(v3) cw(0) cp(5)) {cost 345} {fore 1}}
-{"zbd97"              ("v" c(10) t(all) 				s(prc) n1(1) n2(1) g(mb7) sc(14.50) b(v3) cw(0) cp(5)) {cost 390} {fore 1}}
 
 ;heavy_apc;
 {"wz501"             ("v" c(20) t(all) 				s(prc) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 320} {fore 1}}
 {"wz501g"              ("v" c(20) t(all) 				s(prc) n1(2) n2(1) g(mb5) sc(14.00) b(v3) cw(0) cp(10)) {cost 340} {fore 1}}
 {"wz501-1"             ("v" c(20) t(all) 				s(prc) n1(2) n2(1) g(mb5) sc(16.00) b(v3) cw(0) cp(10)) {cost 350} {fore 1}}
+{"zbd97"              ("v" c(10) t(all) 				s(prc) n1(1) n2(1) g(mb7) sc(14.50) b(v3) cw(0) cp(5)) {cost 390} {fore 1}}
+{"wz551"             ("v" c(5) t(all) 				s(prc) n1(2) n2(1) g(lb2) sc(9.00)  b(v3) cw(0) cp(0)) {cost 250} {fore 1}}
 
 ;spg_aa;
 {"yongswygaopao"            ("vs" c(15) t(all) 			s(prc) n1(3) n2(1) g(aa1) sc(15.00) b(v3) cw(0) cp(10)) {cost 170} {fore 1}}

@@ -7,10 +7,10 @@
 {"iveco_cammo-mk19(eu)"     ("vs" c(15) t(all inf_only) s(eu) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 180} {fore 1}}
 
 {"dingo(eu)"       ("vs" c(15) t(all) 		s(eu) n(3) g(cm1) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 120} {fore 1}}
-{"maxxpro"        ("v" c(15) t(all) 			s(eu) n1(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 180} {fore 1}}
 
 ;heavymgcar;
 {"vab(eu)"             ("v" c(15) t(all) 				s(eu) n1(2) n2(1) g(lb1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 170} {fore 1}}
+{"maxxpro"        ("v" c(15) t(all) 			s(eu) n1(3) g(cm1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 180} {fore 1}}
 
 ;transport;
 {"man"         ("vs" c(5) t(all) 			s(eu) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 80} {fore 1}}

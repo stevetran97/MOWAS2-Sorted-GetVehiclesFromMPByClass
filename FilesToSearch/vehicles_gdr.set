@@ -6,7 +6,6 @@
 ;Button 1 - Logis and Transports --------------------;
 
 ;lightmgcar;
-{"tarbant"              ("vs" c(15) t(all) 			s(gdr) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 20} {fore 1}}
 {"uaz-469_mg"              ("vs" c(15) t(all) 			s(gdr) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
 
 ;heavymgcar;
@@ -16,6 +15,7 @@
 
 ;transport;
 {"ifa"         ("vs" c(5) t(all) 			s(gdr) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
+{"tarbant"              ("vs" c(15) t(all) 			s(gdr) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 20} {fore 1}}
 
 ;logi;
 {"ifa_eng"      ("vs" c(15) t(all) 			s(gdr) n(2) g(t3) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
@@ -69,11 +69,10 @@
 
 ;light_apc;
 {"btr60"             ("v" c(5) t(all) 				s(gdr) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
-
-;medium_wheeled_apc;
 {"btr_70"             ("v" c(10) t(all) 				s(gdr) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 150} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(gdr) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 160} {fore 1}}
 
+;medium_wheeled_apc;
 
 ;heavy_apc;
 {"bmp1(ddr)"             ("v" c(20) t(all) 				s(gdr) n1(2) n2(1) g(mb4) sc(16.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}

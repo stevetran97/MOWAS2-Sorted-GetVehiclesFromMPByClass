@@ -5,10 +5,11 @@
 
 ;lightmgcar;
 {"bx10_mgun"         ("vs" c(15) t(all inf_only)          s(jsdf) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
-{"bx10"         ("vs" c(15) t(all) 		s(jsdf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
 
 ;transport;
 {"skw45"         ("vs" c(5) t(all) 			s(jsdf) n(2) g(t4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 60} {fore 1.0}}
+{"bx10"         ("vs" c(15) t(all) 		s(jsdf) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
+
 
 ;logi;
 {"skw45_eng"      ("vs" c(15) t(all) 			s(jsdf) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}

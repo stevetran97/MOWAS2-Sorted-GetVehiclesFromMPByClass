@@ -6,6 +6,8 @@
 ;lightmgcar;
 {"landrover110"          ("vs" c(15) t(all inf_only) s(gb) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
 {"land_rover_sas"        ("vs" c(15) t(all) 			s(gb) n(4) g(cm2) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 90} {fore 1}}
+
+;transport;
 {"landrover109_t"        ("vs" c(15) t(all) 			s(gb) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
 
 ;heavymgcar;

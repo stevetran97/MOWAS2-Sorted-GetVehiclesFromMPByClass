@@ -4,10 +4,12 @@
 ;Button 1 - Logis and Transports --------------------;
 ;lightmgcar;
 {"uaz-469_mg"              ("vs" c(15) t(all) 			s(isis) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
-{"toyota_hilux_transport"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(cm1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 {"toyota_hilux"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 {"car_terror"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 100} {fore 1}}
 {"datsun-620"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
+
+;transport;
+{"toyota_hilux_transport"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(cm1) sc(9.00)  b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
 
 ;heavymgcar;
 {"brdm2"             ("v" c(15) t(all) 				s(isis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
@@ -38,7 +40,7 @@
 ;light_mortar_spg;
 {"mtlb_art"               ("v" c(5) t(all artillery) 			s(isis) n1(3) n2(1) g(art1) sc(42.50) b(v2) cw(0) cp(5)) {level 17} {cost 650} {fore 1}}
 
-;heavyspgarty;
+;lightspgarty;
 {"2c1_gvazdika"            ("v" c(30) t(all artillery) 			s(isis) n1(3) n2(1) g(art3) sc(45.00) b(v2) cw(0) cp(20)) {cost 850} {fore 1}}
 
 ;heavyrocketarty;

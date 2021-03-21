@@ -42,8 +42,12 @@
 
 ;Button 3 - IFVS and AA -------------------------;
 
-;medium_wheeled_apc;
+;light_apc;
+
 {"btr_70"             ("v" c(10) t(all) 				s(bos) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 150} {fore 1}}
+
+;medium_wheeled_apc;
+
 
 ;spg_aa;
 {"zsu-57-2"            ("v" c(15) t(all) 				s(bos) n1(3) n2(1) g(aa2) sc(15.00) b(v3) cw(0) cp(10)) {cost 250} {fore 1}}

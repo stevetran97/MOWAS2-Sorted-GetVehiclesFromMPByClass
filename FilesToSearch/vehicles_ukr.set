@@ -72,11 +72,11 @@
 
 ;light_apc;
 {"mtlb-6mb"             ("v" c(5) t(all) 				s(ukr) n1(2) n2(1) g(lb6) sc(9.00)  b(v3) cw(0) cp(0)) {cost 230} {fore 1}}
-
-;medium_wheeled_apc;
 {"btr60"             ("v" c(10) t(all) 				s(ukr) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 145} {fore 1}}
 {"btr_70"             ("v" c(10) t(all) 				s(ukr) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 150} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(ukr) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 160} {fore 1}}
+
+;medium_wheeled_apc;
 {"btr80a"             ("v" c(10) t(all) 				s(ukr) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 170} {fore 1}}
 
 

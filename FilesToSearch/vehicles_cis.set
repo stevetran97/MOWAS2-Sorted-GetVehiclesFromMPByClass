@@ -4,13 +4,13 @@
 ;lightmgcar;
 {"uaz-469_mg(rus)"              ("vs"        c(15) t(all) 			       s(cis) n(3)          g(cm1) sc(3.00)   b(v1) cw(0) cp(0)) {level 2} {cost 120} {fore 1}}
 {"tigr_cis"                     ("vs_shared"        c(15) v1(tigr)    t(all inf_only)    s(cis) n(6)          g(cm1) sc(5.50)   b(v1) cw(0) cp(0)) {level 4} {cost 150} {fore 1}}
-{"btr-40b_cis" 	                ("vs_shared" c(15) v1(btr-40b) t(all)              s(cis) n(2)          g(lb1) sc(5.50)   b(v1) cw(0) cp(0)) {level 1} {cost 160} {fore 1}}
+
 
 ;heavymgcar;
+{"btr-40b_cis" 	                ("vs_shared" c(15) v1(btr-40b) t(all)              s(cis) n(2)          g(lb1) sc(5.50)   b(v1) cw(0) cp(0)) {level 1} {cost 160} {fore 1}}
 {"brdm2"                        ("v" c(15) t(all) 				s(cis) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 180} {fore 1}}
 {"btr_70"                       ("v" c(15)  t(all) 				  s(cis) n1(2) n2(1)   g(lb4) sc(9.00)   b(v1) cw(0) cp(0)) {level 4} {cost 200} {fore 1}}
 {"btr80"                        ("v" c(15)  t(all) 				  s(cis) n1(2) n2(1)   g(lb4) sc(9.00)   b(v1) cw(0) cp(0)) {level 4} {cost 220} {fore 1}}
-{"btr80a"                       ("v" c(15)  t(all) 				  s(cis) n1(2) n2(1)   g(lb5) sc(9.00)   b(v1) cw(0) cp(0)) {level 4} {cost 280} {fore 1}}
 {"vodnik"                       ("vs" c(15) t(all) 		s(cis) n(3) g(lb2) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 150} {fore 1}}
 
 ;transport;
@@ -74,6 +74,7 @@
 {"mtlb-6mb"           ("v" c(5) t(all) 				s(cis) n1(2) n2(1) g(lb6) sc(9.00)  b(v3) cw(0) cp(0)) {cost 150} {fore 1}}
 
 ;medium_wheeled_apc;
+{"btr80a"                       ("v" c(15)  t(all) 				  s(cis) n1(2) n2(1)   g(lb5) sc(9.00)   b(v3) cw(0) cp(0)) {level 4} {cost 280} {fore 1}}
 {"btr_90"             ("v" c(10) t(all) 				s(cis) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 380} {fore 1}}
 {"btr_90r"            ("v" c(10) t(all) 				s(cis) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 390} {fore 1}}
 {"btr_90b"            ("v" c(10) t(all) 				s(cis) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 390} {fore 1}}

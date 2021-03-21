@@ -9,7 +9,7 @@
 ;heavymgcar;
 {"btr-40b_armenia" ("vs_shared" c(15) v1(btr-40b) t(all) s(armenia) n(2)          g(lb1) sc(5.50)   b(v1) cw(0) cp(0)) {level 1} {cost 120} {fore 1}}
 {"brdm2"             ("v" c(15) t(all) 				s(armenia) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
-
+{"btr60"             ("v" c(10) t(all) 				s(armenia) n1(2) n2(1) g(lb4) sc(9.00)  b(v1) cw(0) cp(5)) {cost 145} {fore 1}}
 
 ;transport;
 {"kamaz-4326"         ("vs" c(5) t(all) 			s(armenia) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 45} {fore 1}}
@@ -62,10 +62,12 @@
 
 ;Button 3 - IFVS and AA -------------------------;
 
-;medium_wheeled_apc;
-{"btr60"             ("v" c(10) t(all) 				s(armenia) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 145} {fore 1}}
+;light_apc;
 {"btr_70"             ("v" c(10) t(all) 				s(armenia) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 150} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(armenia) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 160} {fore 1}}
+
+;medium_wheeled_apc;
+
 {"btr80a"             ("v" c(10) t(all) 				s(armenia) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 170} {fore 1}}
 
 ;heavy_apc;

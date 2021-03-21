@@ -7,9 +7,8 @@
 ;Button 1 - Logis and Transports --------------------;
 
 ;lightmgcar;
-{"uaz469"              ("vs" c(15) t(all) 			s(nk) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 30} {fore 1}}
 {"uaz469_mgun"              ("vs" c(15) t(all) 			s(nk) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
-{"vodnik"       ("vs" c(15) t(all) 		s(nk) n(3) g(lb2) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 150} {fore 1}}
+
 
 ;heavymgcar;
 {"btr-40"        ("vs" c(15) t(all) 			s(nk) n(3) g(lb1) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
@@ -17,9 +16,11 @@
 {"brdm1"             ("v" c(15) t(all) 				s(nk) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 120} {fore 1}}
 {"brdm2"             ("v" c(15) t(all) 				s(nk) n1(2) n2(1) g(lb3) sc(9.00)  b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
 {"btr50pb"             ("v" c(15) t(all) 				s(nk) n1(2) n2(1) g(mb1) sc(16.00) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"vodnik"       ("vs" c(15) t(all) 		s(nk) n(3) g(lb2) sc(6.25) b(v1) cw(0) cp(0)) {level 6} {cost 150} {fore 1}}
 
 ;transport;
 {"zil157"         ("vs" c(5) t(all) 			s(nk) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1}}
+{"uaz469"              ("vs" c(15) t(all) 			s(nk) n(3) g(cm1) sc(3.00) b(v1) cw(0) cp(0)) {level 2} {cost 30} {fore 1}}
 
 ;logi;
 {"zil157_eng"      ("vs" c(15) t(all) 			s(nk) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
@@ -77,10 +78,12 @@
 
 ;medium_wheeled_apc;
 {"btr80a"             ("v" c(10) t(all) 				s(nk) n1(2) n2(1) g(lb5) sc(9.00)  b(v3) cw(0) cp(5)) {cost 170} {fore 1}}
-{"ot_54"         ("v" c(10) t(all) 	s(nk) n1(4) n2(1) g(ott1) sc(16.40) b(v3) cw(0) cp(5)) {level 1} {cost 370} {fore 1}} 
+
 
 ;heavy_apc;
 {"bmp1"             ("v" c(20) t(all) 				s(nk) n1(2) n2(1) g(mb5) sc(11.00) b(v3) cw(0) cp(10)) {cost 200} {fore 1}}
+
+
 
 ;spg_aa;
 {"vtt323"             ("v" c(15) t(all) 				s(nk) n1(2) n2(1) g(mb5) sc(11.00) b(v3) cw(0) cp(10)) {cost 220} {fore 1}}
@@ -89,6 +92,7 @@
 
 
 ;medium_tank;
+{"ot_54"         ("v" c(10) t(all) 	s(nk) n1(4) n2(1) g(ott1) sc(16.40) b(v4) cw(0) cp(5)) {level 1} {cost 370} {fore 1}} 
 {"t_54a"            ("v" c(15) t(all medium) 	s(nk) n1(3) n2(1) g(mt1) sc(17.50) b(v4) cw(0) cp(15)) {cost 350} {fore 1}} 
 {"t_54b"            ("v" c(15) t(all medium) 		s(nk) n1(3) n2(1) g(mt1) sc(21.00) b(v4) cw(0) cp(15)) {cost 370} {fore 1}}	
 {"t_62m"            ("v" c(15) t(all medium) 		s(nk) n1(3) n2(1) g(mt2) sc(21.00) b(v4) cw(0) cp(15)) {cost 450} {fore 1}}

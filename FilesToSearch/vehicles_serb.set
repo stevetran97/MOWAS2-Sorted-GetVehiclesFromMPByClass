@@ -10,6 +10,10 @@
 {"hummvee_m240"    ("vs" c(15) t(all inf_only)      s(serb) n(3) g(b1) sc(5.50) b(v1) cw(0) cp(0)) {level 2} {cost 110} {fore 1}}
 {"hummvee"         ("vs" c(15) t(all) 				s(serb) n(3) g(cm1) sc(7.50) b(v1) cw(0) cp(0)) {level 4} {cost 120} {fore 1}}
 
+;heavymgcar;
+{"brdm2"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb3) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
+{"btr50pb"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
+
 ;transport;
 {"ural_zvezda"         ("vs" c(5) t(all) 			s(serb) n(2) g(t2) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
 
@@ -56,8 +60,7 @@
 ;Button 3 - IFVS and AA -------------------------;
 
 ;light_apc;
-{"brdm2"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb3) sc(9.00)  b(v3) cw(0) cp(0)) {cost 140} {fore 1}}
-{"btr50pb"             ("v" c(5) t(all) 				s(serb) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(0)) {cost 120} {fore 1}}
+
 
 ;spg_aa;
 {"sa13"           ("v" c(15) t(all medium) 	s(serb) n1(3) n2(1) g(atgm2) sc(17.50) b(v3) cw(0) cp(10)) {cost 280} {fore 1}}

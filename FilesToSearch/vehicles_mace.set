@@ -53,10 +53,12 @@
 
 ;light_apc;
 {"m113"        ("vs" c(5) t(all) 			s(mace) n(3) g(cm1) sc(11.00) b(v3) cw(0) cp(0)) {level 4} {cost 100} {fore 1}}
-
-;medium_wheeled_apc;
 {"btr_70"             ("v" c(10) t(all) 				s(mace) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 150} {fore 1}}
 {"btr80"             ("v" c(10) t(all) 				s(mace) n1(2) n2(1) g(lb4) sc(9.00)  b(v3) cw(0) cp(5)) {cost 160} {fore 1}}
+
+
+
+;medium_wheeled_apc;
 
 ;heavy_apc;
 {"bmp2(rus)"              ("v" c(20) t(all) 				s(mace) n1(2) n2(1) g(mb5) sc(14.00) b(v3) cw(0) cp(10)) {cost 240} {fore 1}}

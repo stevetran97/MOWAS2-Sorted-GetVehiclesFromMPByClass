@@ -6,10 +6,11 @@
 ;lightmgcar;
 {"landrover110"     ("vs" c(15) t(all inf_only) s(aussie) n(3) g(cm1) sc(5.50)  b(v1) cw(0) cp(0)) {level 2} {cost 60} {fore 1}}
 {"land_rover_sas"        ("vs" c(15) t(all) 			s(aussie) n(4) g(cm2) sc(11.00) b(v1) cw(0) cp(0)) {level 4} {cost 90} {fore 1}}
-{"landrover109_t"      ("vs" c(15) t(all) 			s(aussie) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
+
 
 ;transport;
 {"bedfordmt"         ("vs" c(5) t(all) 			s(aussie) n(2) g(t1) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 45} {fore 1}}
+{"landrover109_t"      ("vs" c(15) t(all) 			s(aussie) n(2) g(t3) sc(12.50) b(v1) cw(0) cp(0)) {level 8} {cost 100} {fore 1}}
 
 ;logi;
 {"bedfordmt_eng"      ("vs" c(15) t(all) 			s(aussie) n(2) g(t2) sc(7.50) b(v1) cw(0) cp(0)) {level 1} {cost 150} {fore 1}}
